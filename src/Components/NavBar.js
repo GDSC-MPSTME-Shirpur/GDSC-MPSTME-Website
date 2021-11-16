@@ -10,8 +10,11 @@ function NavBar() {
                 <a href="#">
                     <img src="./images/profile_img.png" alt="Oh!" />
                 </a>
-                <a>
-                    Google Developers Student Club
+                <a href="#">
+                    <LogoText>
+                        <Heading>Google Developers Student Club</Heading>
+                        <CollegeName>MPSTME, Shirpur</CollegeName>
+                    </LogoText>
                 </a>
             </Logo>
             <Links>
@@ -49,6 +52,7 @@ export default NavBar;
 const Container = styled.div`
     z-index: 1;
     display: flex;
+    font-size: 15px;
     width: 100%;
     justify-content: space-between;
     position: fixed;
@@ -61,16 +65,29 @@ const Container = styled.div`
 const Logo = styled.div`
     display: flex;
     align-items: center;
-    font-weight: 600;
     color: #5f6368;
-    font-size: 18px;
     cursor: pointer;
     img{
         height: 10vh;
     }
+`;
+const LogoText = styled(Logo)`
+    font-weight: 600;
+    flex-direction: column;
+    justify-content: center;
+`;
+const Heading = styled.div`
+    font-size: 18px;
     @media (max-width: 756px)
     {
         font-size: 15px;
+    }
+`;
+const CollegeName = styled.div`
+    font-size: 14px;
+    @media (max-width: 756px)
+    {
+        font-size: 12px;
     }
 `;
 const Links =styled.div`
