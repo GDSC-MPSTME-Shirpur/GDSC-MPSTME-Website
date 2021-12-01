@@ -55,7 +55,7 @@ const Container = styled.div`
     font-size: 15px;
     width: 100%;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     height: 10vh;
     align-items: center;
     padding: 0px 30px;
