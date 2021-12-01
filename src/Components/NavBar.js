@@ -19,7 +19,7 @@ function NavBar() {
             </Logo>
             <Links>
                 <PcLinks>
-                <li><a href="#">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="#">Team</a></li>
@@ -37,7 +37,7 @@ function NavBar() {
                         SetNavOpen(false)
                     }/>
                 </CloseWrapper>
-                <li><a href="#">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="#">Team</a></li>
@@ -53,10 +53,11 @@ const Container = styled.div`
     z-index: 1;
     display: flex;
     font-size: 15px;
-    width: 100%;
+    // width: 100%;
     justify-content: space-between;
+    top: 0;
     position: sticky;
-    height: 10vh;
+    height: 60px;
     align-items: center;
     padding: 0px 30px;
     background-color: white;
@@ -68,7 +69,7 @@ const Logo = styled.div`
     color: #5f6368;
     cursor: pointer;
     img{
-        height: 10vh;
+        height: 60px;
     }
 `;
 const LogoText = styled(Logo)`

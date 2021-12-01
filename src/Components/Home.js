@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function Home() {
     return (
-        <Container>
+        <Container id='home'>
             <HomeLeft>
                 <img src='/images/HomePageLogo.jpg' alt='Oh! Image Not found.'/>
             </HomeLeft>
@@ -17,47 +17,40 @@ function Home() {
 export default Home;
 
 const Container = styled.div`
-    width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
+    padding: 40px;
     justify-content: center;
     align-items: center;    
     @media (max-width: 756px)
     {
         flex-direction: column;
+        justify-content: flex-start;
     }
 `;
 const HomeLeft = styled.div`
-    height: 100%;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 10px;
+    margin-right: 40px;
     img{
         width: 500px;
         fit-content: contain;
     }
     @media (max-width: 756px)
     {
-        width: 100vw;
+        margin-right: 10px;
         img{
             width: 300px;
         }
     }
 `;
 const HomeRight = styled.div`
-    height: 100%;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     img{
+        margin: 10px;
         width: 450px;
         fit-content: contain;
     }
     @media (max-width: 756px)
     {
-        width: 100vw;
         img{
             width: 250px;
         }
