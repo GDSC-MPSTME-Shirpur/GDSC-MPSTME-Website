@@ -2,15 +2,33 @@ import './App.css';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
 import About from './Components/About';
+import Events from './Components/Events';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Home />
-      <About />
-      <Footer />
+      <Router>
+        {/* NavBar */}
+        <NavBar />  
+
+        <Switch>
+          <Route exact path='/contact'>
+              <ContactUs />
+          </Route>
+          <Route exact path='/events'>
+              <Events />
+          </Route>
+          <Route exact path='/'>
+              <Home />
+          </Route>
+        </Switch>
+
+        {/* Footer */}
+        <Footer />
+      </Router>
     </div>
   );
 }

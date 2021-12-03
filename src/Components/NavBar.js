@@ -2,28 +2,35 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from 'react-router-dom';
 function NavBar() {
     const [NavOpen, SetNavOpen] = useState(false);
     return (
         <Container>
-            <Logo>
-                <a href="#">
-                    <img src="./images/profile_img.png" alt="Oh!" />
-                </a>
-                <a href="#">
+            <Link to='/'>
+                <Logo>
+                    <a>
+                        <img src="./images/profile_img.png" alt="Oh!" />
+                    </a>
+                    <a>
                     <LogoText>
                         <Heading>Google Developers Student Club</Heading>
                         <CollegeName>MPSTME, Shirpur</CollegeName>
                     </LogoText>
-                </a>
-            </Logo>
+                    </a>
+                </Logo>
+            </Link>
             <Links>
                 <PcLinks>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <Link to="/">
+                    <li><a>Home</a></li>
+                </Link>
+                <li><a>Team</a></li>
+                <li><a>technologies</a></li>
+                <li><a>Events</a></li>
+                <Link to="/contact">
+                    <li><a>Contact</a></li>
+                </Link>
                 </PcLinks>
                 <Menu>
                     <CustomMenu onClick = {() => 
@@ -37,11 +44,15 @@ function NavBar() {
                         SetNavOpen(false)
                     }/>
                 </CloseWrapper>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <Link to="/">
+                    <li><a>Home</a></li>
+                </Link>
+                <li><a>Team</a></li>
+                <li><a>technologies</a></li>
+                <li><a>Events</a></li>
+                <Link to="/contact">
+                    <li><a>Contact</a></li>
+                </Link>
             </MobileNav>
         </Container>
     )
@@ -51,9 +62,9 @@ export default NavBar;
 
 const Container = styled.div`
     z-index: 1;
+    color: #5f6368;
     display: flex;
     font-size: 15px;
-    // width: 100%;
     justify-content: space-between;
     top: 0;
     position: sticky;
@@ -81,14 +92,14 @@ const Heading = styled.div`
     font-size: 18px;
     @media (max-width: 756px)
     {
-        font-size: 15px;
+        font-size: 0.7em;
     }
 `;
 const CollegeName = styled.div`
     font-size: 14px;
     @media (max-width: 756px)
     {
-        font-size: 12px;
+        font-size: 0.6em;
     }
 `;
 const Links =styled.div`
@@ -105,6 +116,9 @@ const Links =styled.div`
     }
 `;
 const PcLinks = styled(Links)`
+    li{
+        cursor: pointer;
+    }
     @media (max-width: 756px)
     {
         display: none;
