@@ -25,9 +25,13 @@ function NavBar() {
                 <Link to="/">
                     <li><a>Home</a></li>
                 </Link>
-                <li><a>Team</a></li>
+                <Link to="/team">
+                    <li><a>Team</a></li>
+                </Link>
                 <li><a>technologies</a></li>
-                <li><a>Events</a></li>
+                <Link to="/events">
+                    <li><a>Events</a></li>
+                </Link>
                 <Link to="/contact">
                     <li><a>Contact</a></li>
                 </Link>
@@ -47,7 +51,9 @@ function NavBar() {
                 <Link to="/">
                     <li><a>Home</a></li>
                 </Link>
-                <li><a>Team</a></li>
+                <Link to="/team">
+                    <li><a>Team</a></li>
+                </Link>
                 <li><a>technologies</a></li>
                 <li><a>Events</a></li>
                 <Link to="/contact">
@@ -113,6 +119,9 @@ const Links =styled.div`
         a{
             color: #5f6368;
         }
+    }
+    li a:hover{
+        color: red;
     }
 `;
 const PcLinks = styled(Links)`
