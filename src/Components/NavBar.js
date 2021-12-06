@@ -28,7 +28,9 @@ function NavBar() {
                 <Link to="/team">
                     <li><a>Team</a></li>
                 </Link>
-                <li><a>technologies</a></li>
+                <Link to='/technologies'>
+                    <li><a>technologies</a></li>
+                </Link>
                 <Link to="/events">
                     <li><a>Events</a></li>
                 </Link>
@@ -54,8 +56,12 @@ function NavBar() {
                 <Link to="/team">
                     <li><a>Team</a></li>
                 </Link>
-                <li><a>technologies</a></li>
-                <li><a>Events</a></li>
+                <Link to='/technologies'>
+                    <li><a>technologies</a></li>
+                </Link>
+                <Link to="/events">
+                    <li><a>Events</a></li>
+                </Link>
                 <Link to="/contact">
                     <li><a>Contact</a></li>
                 </Link>

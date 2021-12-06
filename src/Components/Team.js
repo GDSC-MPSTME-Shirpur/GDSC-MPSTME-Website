@@ -14,18 +14,13 @@ const Departments = [
 ];
 
 let R1=0, R2=1,R3=4; 
-function IncrementRow1()
+function IncrementRow()
 {
     R1+=6;
-}
-function IncrementRow2()
-{
+    R3+=6;
     R2+=6;
 }
-function IncrementRow3()
-{
-    R3+=6;
-}
+
 function Row1()
 {
     return(
@@ -97,9 +92,7 @@ function Team()
                             Row3()
                         }
                     </TeamContainer>
-                    { IncrementRow1() }
-                    { IncrementRow2() }
-                    { IncrementRow3() }
+                    { IncrementRow() }
                     </>
                 ))
             }

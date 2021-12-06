@@ -97,16 +97,19 @@ const Title = styled.div`
     justify-content: center;
     align-items: center;
     color: rgb(62, 238, 62);
+    // color: blue;
     margin-top: 10px;
     padding: 10px;
     h1 {    
         width: 70%; 
         text-align: center; 
         border-bottom: 2px solid #000; 
+        // border-bottom: 2px solid blue; 
         line-height: 0.1em;
         margin: 10px 0 20px; 
      } 
      h1 span { 
+         font-weight: 600;
          background:#fff; 
          padding:0 10px; 
      }
@@ -210,6 +213,7 @@ const Row1 = styled.div`
     button{
         margin-top: 10px;
         padding: 5px 10px;
+        cursor: pointer;
         background-color: blue;
         color: white;
         border-radius: 5px;
