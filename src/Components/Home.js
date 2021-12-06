@@ -26,7 +26,7 @@ function Home() {
 export default Home;
 
 const Container = styled.div`
-    height: 90vh;
+    height: 80vh;
     display: flex;
     padding: 40px;
     justify-content: center;

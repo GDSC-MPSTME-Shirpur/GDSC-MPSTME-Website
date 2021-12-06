@@ -6,6 +6,7 @@ import Events from './Components/Events';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ContactUs from './Components/ContactUs';
 import Team from './Components/Team';
+import Technologies from './Components/Technologies';
 import Footer from './Components/Footer';
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path='/team'>
               <Team />
+          </Route>
+          <Route exact path='/technologies'>
+              <Technologies />
           </Route>
           <Route exact path='/'>
               <Home />
