@@ -6,7 +6,7 @@ const technologies = [
         "bkgclr": 'white',
         "isLeft": 'true',
         "link": "https://codelabs.developers.google.com/?cat=web",
-        "SiteName": 'codelabs',
+        "SiteName": 'Codelabs',
         "bufferBtnName": '',
         "bufferBtnLink" : ''
     },
@@ -28,7 +28,7 @@ const technologies = [
         "bkgclr": 'white',
         "isLeft": 'true',
         "link": "https://codelabs.developers.google.com/?cat=android",
-        "SiteName": 'codelabs',
+        "SiteName": 'Codelabs',
         "bufferBtnName": '',
         "bufferBtnLink" : ''
     },
