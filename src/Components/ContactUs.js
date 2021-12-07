@@ -21,7 +21,7 @@ function ContactUs()
 
     const onSubmit = async (e) => {
         e.preventDefault();
-            emailjs.send('service_ng9g5y7','template_ighrllm', templateParams, 'user_6SxB9kjxyh4x7azkIcoPd')
+            emailjs.send('service_b63kp4p','template_qh0rztg', templateParams, 'user_miRMFqhXbBb34CrhdtACY')
                 .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 }, (err) => {
@@ -96,7 +96,8 @@ const Title = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(62, 238, 62);
+    // color: rgb(62, 238, 62);
+    color: #4285F4;
     // color: blue;
     margin-top: 10px;
     padding: 10px;

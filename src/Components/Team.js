@@ -80,7 +80,7 @@ function Team()
                 Departments.map((item,i) =>
                 (
                     <>
-                    <TeamTitle TeamName={item} />
+                    <TeamTitle TeamName={item} color="#4285F4"/>
                     <TeamContainer>
                         {
                             Row1()

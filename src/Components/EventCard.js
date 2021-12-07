@@ -3,35 +3,41 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
-function TechCard({Tech}) 
+function EventCard({event}) 
 {
     return (
-        <Container background={Tech.bkgclr} isLeft={Tech.isLeft} >
+        <Container background={event.bkgclr} isLeft={event.isLeft} >
             <Image>
-                <img src={Tech.img} alt={Tech.name}></img>
+                <img src={event.img} alt={event.name}></img>
             </Image>
-            <TechInfo>
-                <h2>{Tech.name}</h2>
-                <p>{Tech.content}</p>
+            <EventInfo>
+                <h2>{event.name}</h2>
+                <p>{event.description}</p>
+                {
+                    event.Date
+                    &&
+                    <>
+                    <p><strong>Date:</strong> {event.Date}</p>
+                    <p><strong>Time:</strong> {event.Time}</p>
+                    </>
+                }
                 <Buttons>
-                    <a href={Tech.link}><button>{Tech.SiteName} <FontAwesomeIcon icon={faExternalLinkAlt} /></button></a>
+                    <a href={event.link}><button>{event.SiteName} <FontAwesomeIcon icon={faExternalLinkAlt} /></button></a>
                     {
-                        Tech.bufferBtnName
+                        event.bufferBtnName
                         &&
-                        <a href={Tech.bufferBtnLink}><button>{Tech.bufferBtnName} <FontAwesomeIcon icon={faExternalLinkAlt} /></button></a>
+                        <a href={event.bufferBtnLink}><button>{event.bufferBtnName} <FontAwesomeIcon icon={faExternalLinkAlt} /></button></a>
                     }
                 </Buttons>
-            </TechInfo>
+            </EventInfo>
         </Container>
     );
 }
 
-export default TechCard;
+export default EventCard;
 
 const Container = styled.div`
     background-color: ${props => props.background? `white`:`#F8F9FA`};
-    height: 70vh;
-    min-height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,10 +45,12 @@ const Container = styled.div`
     flex-direction: ${props => props.isLeft? `row`:`row-reverse`};
     @media (max-width: 756px)
     {
+        min-height: fit-content;
         height: 100%;
         width: 100vw;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 5px;
     }
     
 `;
@@ -53,6 +61,7 @@ const Image = styled.div`
     width: 30vw;
     margin: 0px 10px;
     img{
+        max-height: 60vh;
         height: 100%;
         width: 100%;
         object-fit: contain;
@@ -68,7 +77,7 @@ const Image = styled.div`
         }
     }
 `;  
-const TechInfo = styled.div`
+const EventInfo = styled.div`
     display: flex;  
     flex-direction: column;
     font-family: "Google Sans",sans-serif;
@@ -83,6 +92,7 @@ const TechInfo = styled.div`
     {
         color: #5f6368;
         font-weight: 500;
+        margin-bottom: 5px;
     }
     button
     {

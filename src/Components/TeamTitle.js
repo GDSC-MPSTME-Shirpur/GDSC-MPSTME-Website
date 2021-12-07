@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function TeamTitle({TeamName})
+function TeamTitle({TeamName, color})
 {
     return(
         <Container>
-            <Title>
+            <Title color={color}>
                 <h1><span>{TeamName}</span></h1>
             </Title>
         </Container>
@@ -22,14 +22,14 @@ const Title = styled.div`
     align-items: center;
     width: 100%;
     // color: rgb(62, 238, 62);
-    color: blue;
+    color: ${props => props.color? `${props.color}`:`blue`};
     margin-top: 10px;
     padding: 10px;
     h1 {    
         width: 70%; 
         text-align: center; 
         // border-bottom: 2px solid #000; 
-        border-bottom: 2px solid blue; 
+        border-bottom: 2px solid ${props => props.color? `${props.color}`:`blue`}; 
         line-height: 0.1em;
         margin: 10px 0 20px; 
      } 
