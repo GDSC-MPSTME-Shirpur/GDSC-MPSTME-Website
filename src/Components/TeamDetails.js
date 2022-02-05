@@ -65,7 +65,7 @@ const TeamMembers = [
     },
     {
         "name": 'Mithali Patil',
-        "image": '/images/team/Mithali Patil.png',
+        "image": '/images/team/Mithali Patil.PNG',
         "role": '',
         "insta": 'https://www.instagram.com/mithalipatill/',
         "linkedin": ''
@@ -130,14 +130,14 @@ const TeamMembers = [
     // Technical Team
     {
         "name": 'Aman Singh Bhogal',
-        "image": '/images/team/Aman Singh Bhogal.jpg',
+        "image": '/images/team/Aman Singh Bhogal.JPG',
         "role": 'Technical Lead',
         "insta": 'https://www.instagram.com/asb_0002/',
         "linkedin": 'https://www.linkedin.com/in/aman-singh-bhogal-002914195/'
     },
     {
         "name": 'Aditya Ravi',
-        "image": '/images/team/Aditya Ravi.jpg',
+        "image": '/images/team/Aditya Ravi.JPG',
         "role": '',
         "insta": 'https://www.instagram.com/adman1912/',
         "linkedin": 'https://www.linkedin.com/in/adman1917/'
@@ -201,7 +201,7 @@ const TeamMembers = [
     },
     {
         "name": 'Saniddhya Dubey',
-        "image": '/images/team/Saniddhya Dubey.jpg',
+        "image": '/images/team/Saniddhya Dubey.JPG',
         "role": '',
         "insta": 'https://www.instagram.com/10_saniddhya/',
         "linkedin": 'https://www.linkedin.com/in/saniddhya-dubey-69a9a520b/'
