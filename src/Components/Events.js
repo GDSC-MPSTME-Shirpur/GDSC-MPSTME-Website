@@ -61,7 +61,7 @@ const EventCalendar = styled.div`
 const Calendar = styled.div`
     height: 80vh;
     width: 55vw;
-    @media (max-width: 756px)
+    @media (max-width: 500px)
     {
         width: 100%;
         height: 60vh;

@@ -59,6 +59,10 @@ const Container = styled.div`
     #p_name{
         font-size: 1.2em;
     }
+    @media(max-width: 500px)
+    {
+        width: fit-content;
+    }
 `;
 const Image = styled.div`
     img{

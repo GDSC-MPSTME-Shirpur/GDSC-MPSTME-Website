@@ -50,19 +50,29 @@ function NavBar() {
                         SetNavOpen(false)
                     }/>
                 </CloseWrapper>
-                <Link to="/">
+                <Link to="/" onClick = {() => 
+                        SetNavOpen(false)
+                    }>
                     <li><a>Home</a></li>
                 </Link>
-                <Link to="/team">
+                <Link to="/team" onClick = {() => 
+                        SetNavOpen(false)
+                    }>
                     <li><a>Team</a></li>
                 </Link>
-                <Link to='/technologies'>
+                <Link to='/technologies' onClick = {() => 
+                        SetNavOpen(false)
+                    }>
                     <li><a>technologies</a></li>
                 </Link>
-                <Link to="/events">
+                <Link to="/events" onClick = {() => 
+                        SetNavOpen(false)
+                    }>
                     <li><a>Events</a></li>
                 </Link>
-                <Link to="/contact">
+                <Link to="/contact" onClick = {() => 
+                        SetNavOpen(false)
+                    }>
                     <li><a>Contact</a></li>
                 </Link>
             </MobileNav>
@@ -80,7 +90,7 @@ const Container = styled.div`
     justify-content: space-between;
     top: 0;
     position: sticky;
-    height: 60px;
+    height: 70px;
     align-items: center;
     padding: 0px 30px;
     background-color: white;
@@ -102,16 +112,16 @@ const LogoText = styled(Logo)`
 `;
 const Heading = styled.div`
     font-size: 18px;
-    @media (max-width: 756px)
+    @media (max-width: 824px)
     {
-        font-size: 0.7em;
+        font-size: 14px;
     }
 `;
 const CollegeName = styled.div`
     font-size: 14px;
-    @media (max-width: 756px)
+    @media (max-width: 824px)
     {
-        font-size: 0.6em;
+        font-size: 12px;
     }
 `;
 const Links =styled.div`
@@ -134,13 +144,13 @@ const PcLinks = styled(Links)`
     li{
         cursor: pointer;
     }
-    @media (max-width: 756px)
+    @media (max-width: 824px)
     {
         display: none;
     }
 `;
 const Menu = styled.div`
-    @media (min-width: 756px)
+    @media (min-width: 824px)
     {
         display: none;
     }
@@ -169,7 +179,7 @@ const MobileNav = styled.div`
             color: #5f6368;
         }
     }
-    @media (min-width: 756px)
+    @media (min-width: 824px)
     {
         display: none;
     }
