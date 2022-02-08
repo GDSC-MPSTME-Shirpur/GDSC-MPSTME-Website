@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        {/* NavBar */}
+        {/* NavBar is good */}
         <NavBar />  
 
         <Switch>
