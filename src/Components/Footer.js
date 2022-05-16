@@ -8,7 +8,7 @@ function Footer()
     return(
         <Container>
             <FooterImg>
-                <img src="./images/FooterLogo.JPG" alt="Oh! Image not Found!" />
+                <img src="./images/FooterLogo.JPG" alt="404! Element Not Found" />
                 <p id="copy">&copy;{(new Date().getFullYear())}| All Rights Reserved</p>
                 <p>Engineered By Technical Team.</p>
                 <p>Powered By Google</p>

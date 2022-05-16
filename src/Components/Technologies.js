@@ -13,8 +13,8 @@ function Technologies() {
                 <h4>Opportunities for you to learn & access technical content.</h4>
             </Title>
             {
-                technologies.map(item => (
-                    <TechCard Tech={item} />
+                technologies.map((item,index) => (
+                    <TechCard Tech={item} key={index}/>
                 ))
             }
         </Container>

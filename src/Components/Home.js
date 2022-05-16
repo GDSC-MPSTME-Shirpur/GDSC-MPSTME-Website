@@ -9,7 +9,7 @@ function Home() {
         {/* Home Page */}
         <Container id='home'>
             <HomeLeft>
-                <img src='/images/HomePageLogo.jpg' alt='Oh! Image Not found.'/>
+                <img src='/images/HomePageLogo.jpg' alt='404! Element Not found.'/>
                 <h3>Welcome to Google DSC at MPSTME, Shirpur</h3>
                 <h3>Happy developing!</h3>
             </HomeLeft>
