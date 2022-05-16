@@ -1,4 +1,6 @@
-<img align="center" src= "https://github.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/blob/master/public/images/GDSCLogo.png" alt = "gdsc logo" >
+<div align="center>
+    <img align="center" src= "https://github.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/blob/master/public/images/GDSCLogo.png" alt = "gdsc logo" >
+</div>
 
 <h1>Welcome to Google Developer Student Club - MPSTME Shirpur</h1>
 
