@@ -21,11 +21,11 @@ function ContactUs()
 
     const onSubmit = async (e) => {
         e.preventDefault();
-            emailjs.send('service_b63kp4p','template_qh0rztg', templateParams, 'user_miRMFqhXbBb34CrhdtACY')
+            emailjs.send(process.env.REACT_APP_EMAILJS_USER_ID,'template_qh0rztg', templateParams, process.env.REACT_APP_EMAILJS_API_KEY)
                 .then((response) => {
-                console.log('SUCCESS!', response.status, response.text);
+                    console.log('SUCCESS!', response.status, response.text);
                 }, (err) => {
-                console.log('FAILED...', err);
+                    console.log('FAILED...', err);
                 });
                 swal({
                     title: "Sent Successfully!",
@@ -39,7 +39,6 @@ function ContactUs()
                     message: ''
                 })
     };
-
     return(
         <div>
             <Title>
@@ -48,14 +47,14 @@ function ContactUs()
             <Container>
                 <CollegeDetails>
                     <Map>
-                        <Iframe url="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJm1-aT_Au3zsRG3hCBfFg5MQ&key=AIzaSyChioVhp55tebjC3vZUomYC0LxSSkTuT48"
+                        <Iframe url={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJm1-aT_Au3zsRG3hCBfFg5MQ&key=${process.env.REACT_APP_MAP_API_KEY}`}
                             width="100%"
                             height="100%"
                             id="myId"
                             loading="lazy"
-                            style="border:0"
+                            style={{ border: "0" }}
                             className="myClassname"
-                                />
+                                />  
                     </Map>
                     <Details>
                         <DetailsTitle>
@@ -65,8 +64,9 @@ function ContactUs()
                         <p>Mukesh Patel Technolgy Park, Village: Babulde Bank of Tapi River,<br /> National Highway No: 3,<br /> Shirpur Dist, Savalade,<br/> Maharashtra: 425405</p>
                         <DetailsTitle>
                             <FontAwesomeIcon id='icon' icon={faEnvelope} />
-                            <h4>Email us: </h4><span>gdscmpstme.shirpur@gmail.com</span>
+                            <h4>Email us: </h4>
                         </DetailsTitle>
+                            <p>gdscmpstme.shirpur@gmail.com</p>
                     </Details>
                 </CollegeDetails>
                 <form onSubmit={e => onSubmit(e)}>
@@ -79,7 +79,7 @@ function ContactUs()
                             <input type="text" onChange={e => onInputChange(e)} value={templateParams.subject} name="subject" placeholder="Enter the Subject" required></input>
                         </Row2>
                         <Row3>
-                            <textarea rows="4" cols="50" type="text" onChange={e => onInputChange(e)} value={templateParams.message} name="message" placeholder="Write your message..." as="textarea" rows={8} required></textarea>
+                            <textarea rows="8" cols="50" type="text" onChange={e => onInputChange(e)} value={templateParams.message} name="message" placeholder="Write your message..." as="textarea" required></textarea>
                         </Row3>
                         <Row1>
                             <button type="submit">Submit</button>
@@ -96,16 +96,13 @@ const Title = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    // color: rgb(62, 238, 62);
     color: #4285F4;
-    // color: blue;
     margin-top: 10px;
     padding: 10px;
     h1 {    
         width: 70%; 
         text-align: center; 
         border-bottom: 2px solid #000; 
-        // border-bottom: 2px solid blue; 
         line-height: 0.1em;
         margin: 10px 0 20px; 
      } 
@@ -150,16 +147,16 @@ const CollegeDetails = styled.div`
 `;
 
 const ContactForm = styled.div`
-     display: flex;
-     flex-direction: column;
-     align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50vw;
     padding: 50px 20px;
     @media (max-width: 756px)
-     {
+    {
         width: 100%;
         padding-top: 10px;
-     }
+    }
 `;
 
 const Map = styled.div`
@@ -207,7 +204,7 @@ const Row1 = styled.div`
     input{
         width: 45%;
         padding: 5px 10px;
-        margin: 5px;
+        margin: 5px 0px;
         border-radius: 5px;
         border: 1px solid lightgrey;
     }
@@ -221,6 +218,13 @@ const Row1 = styled.div`
         font-size: 1em;
         borer: 1px solid lightgrey;
     }
+    @media (max-width: 756px)
+    {
+        flex-direction: column;
+        input{
+            width: 90%;
+        }
+    }
 `;
 
 const Row2 = styled(Row1)`
@@ -231,7 +235,7 @@ const Row2 = styled(Row1)`
 
 const Row3 = styled(Row1)`
     height: 150px;
-    margin: 5px;
+    margin: 5px 0px;
     textarea{
         width: 90%;
         border: 1px solid lightgrey;

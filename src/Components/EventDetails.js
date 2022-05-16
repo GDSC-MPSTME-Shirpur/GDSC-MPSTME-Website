@@ -5,7 +5,7 @@ const EventsDetail = [
         "img": '/images/Events/AJSIntro.jpeg',
         "Date": "8th December, 2021",
         "Time": "6:00 pm",
-        "SiteName": 'RSVP here',
+        "SiteName": 'Know More',
         "link": "https://gdsc.community.dev/events/details/developer-student-clubs-mukesh-patel-school-of-technology-management-and-engineering-shirpur-presents-android-study-jam/",
         "bkgclr": '',
         "isLeft": '',

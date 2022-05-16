@@ -9,33 +9,29 @@ function NavBar() {
         <Container>
             <Link to='/'>
                 <Logo>
-                    <a>
-                        <img src="./images/profile_img.png" alt="Oh!" />
-                    </a>
-                    <a>
+                    <img src="./images/profile_img.png" alt="Oh!" />
                     <LogoText>
                         <Heading>Google Developers Student Club</Heading>
                         <CollegeName>MPSTME, Shirpur</CollegeName>
                     </LogoText>
-                    </a>
                 </Logo>
             </Link>
             <Links>
                 <PcLinks>
                 <Link to="/">
-                    <li><a>Home</a></li>
+                    <li>Home</li>
                 </Link>
                 <Link to="/team">
-                    <li><a>Team</a></li>
+                    <li>Team</li>
                 </Link>
                 <Link to='/technologies'>
-                    <li><a>technologies</a></li>
+                    <li>Technologies</li>
                 </Link>
                 <Link to="/events">
-                    <li><a>Events</a></li>
+                    <li>Events</li>
                 </Link>
                 <Link to="/contact">
-                    <li><a>Contact</a></li>
+                    <li>Contact</li>
                 </Link>
                 </PcLinks>
                 <Menu>
@@ -53,27 +49,27 @@ function NavBar() {
                 <Link to="/" onClick = {() => 
                         SetNavOpen(false)
                     }>
-                    <li><a>Home</a></li>
+                    <li>Home</li>
                 </Link>
                 <Link to="/team" onClick = {() => 
                         SetNavOpen(false)
                     }>
-                    <li><a>Team</a></li>
+                    <li>Team</li>
                 </Link>
                 <Link to='/technologies' onClick = {() => 
                         SetNavOpen(false)
                     }>
-                    <li><a>technologies</a></li>
+                    <li>technologies</li>
                 </Link>
                 <Link to="/events" onClick = {() => 
                         SetNavOpen(false)
                     }>
-                    <li><a>Events</a></li>
+                    <li>Events</li>
                 </Link>
                 <Link to="/contact" onClick = {() => 
                         SetNavOpen(false)
                     }>
-                    <li><a>Contact</a></li>
+                    <li>Contact</li>
                 </Link>
             </MobileNav>
         </Container>
@@ -132,11 +128,9 @@ const Links =styled.div`
     li{
         padding: 0px 10px;
         font-weight: 600;
-        a{
-            color: #5f6368;
-        }
+        color: #5f6368;
     }
-    li a:hover{
+    li:hover{
         color: red;
     }
 `;
@@ -174,10 +168,8 @@ const MobileNav = styled.div`
     li{
         padding: 15px 0px;
         border-bottom: 1px solid rgba(0,0,0,0.2);
-        a{
-            font-weight: 600;
-            color: #5f6368;
-        }
+        font-weight: 600;
+        color: #5f6368;
     }
     @media (min-width: 824px)
     {

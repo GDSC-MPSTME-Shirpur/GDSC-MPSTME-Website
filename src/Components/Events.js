@@ -29,12 +29,17 @@ function Events()
             <EventCard event={header[0]}/>
             <EventCalendar>
                 <Calendar>
-                <Iframe id='calendar' src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FKolkata&showPrint=0&showTabs=1&showNav=1&showDate=1&showCalendars=1&showTz=0&showTitle=1&src=ZzQ3dm5lMTZvY2o4YTJycHFwbWx1Y2Y1aWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF&color=%230B8043" style="border-width:0" width="100%" height="100%" frameborder="0" scrolling="no" />
+                <Iframe id='calendar' 
+                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FKolkata&showPrint=0&showTabs=1&showNav=1&showDate=1&showCalendars=1&showTz=0&showTitle=1&src=ZzQ3dm5lMTZvY2o4YTJycHFwbWx1Y2Y1aWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF&color=%230B8043" style={{border: "0px"}} 
+                width="100%" 
+                height="100%" 
+                frameborder="0" 
+                scrolling="no" />
                 </Calendar>
             </EventCalendar>
             {
-                EventsDetail.map(event => (
-                    <EventCard event={event}/>
+                EventsDetail.map((event,index) => (
+                    <EventCard event={event} key={index}/>
                 ))
             }
             

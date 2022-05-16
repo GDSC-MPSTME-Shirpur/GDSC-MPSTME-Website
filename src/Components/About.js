@@ -23,7 +23,7 @@ function About() {
                </ButtonTab>
             </Body>
          <Picture>
-               <img src='/images/about1.gif' alt='image not found' />
+               <img src='/images/about1.gif' alt='404, Object not found' />
          </Picture>
       </Container>
    )
