@@ -80,7 +80,7 @@ function Team()
                 Departments.map((item,i) =>
                 (
                     <>
-                    <TeamTitle TeamName={item} />
+                    <TeamTitle TeamName={item} color="#4285F4"/>
                     <TeamContainer>
                         {
                             Row1()
@@ -111,6 +111,7 @@ const Container = styled.div`
 `;
 const TeamContainer = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -118,6 +119,7 @@ const TeamContainer = styled.div`
 `;
 const Row = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     @media (max-width: 756px)
