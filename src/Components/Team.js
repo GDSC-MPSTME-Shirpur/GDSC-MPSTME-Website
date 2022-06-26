@@ -27,9 +27,9 @@ function Row1()
     <Row>
     {  
         TeamMembers.map((Person,index) => (
-            index==R1
+            index===R1
             &&
-            <ProfileCard Person={Person} />
+            <ProfileCard Person={Person} key={index}/>
         ))
     }
     </Row>
@@ -45,7 +45,7 @@ function Row2()
             (index>=R2 && index<=(R2 + 2))
             &&
             <>
-            <ProfileCard Person={Person} />
+                <ProfileCard Person={Person} key={index}/>
             </>
         ))
     }
@@ -61,7 +61,7 @@ function Row3()
             (index>=R3 && index<=(R3+1 ))
             &&
             <>
-            <ProfileCard Person={Person} />
+            <ProfileCard Person={Person} key={index}/>
             </>
         ))
     }
@@ -77,23 +77,23 @@ function Team()
     return(
         <Container>
             {
-                Departments.map((item,i) =>
+                Departments.map((item,i) => 
                 (
-                    <>
-                    <TeamTitle TeamName={item} color="#4285F4"/>
-                    <TeamContainer>
-                        {
-                            Row1()
-                        }
-                        {
-                            Row2()
-                        }
-                        {
-                            Row3()
-                        }
-                    </TeamContainer>
-                    { IncrementRow() }
-                    </>
+                    <div key={i}>
+                        <TeamTitle TeamName={item}color="#4285F4"/>
+                        <TeamContainer>
+                            {
+                                Row1()
+                            }
+                            {
+                                Row2()
+                            }   
+                            {
+                                Row3()
+                            }
+                        </TeamContainer>
+                        { IncrementRow() }
+                    </div>
                 ))
             }
         </Container>
@@ -106,11 +106,11 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // background-color: rgb(234, 237, 237);
     background-color: white;
 `;
 const TeamContainer = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -118,6 +118,7 @@ const TeamContainer = styled.div`
 `;
 const Row = styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     @media (max-width: 756px)

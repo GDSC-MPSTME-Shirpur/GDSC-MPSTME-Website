@@ -65,7 +65,7 @@ const TeamMembers = [
     },
     {
         "name": 'Mithali Patil',
-        "image": '/images/Team/Mithali Patil.png',
+        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/Team/Mithali%20Patil.png',
         "role": '',
         "insta": 'https://www.instagram.com/mithalipatill/',
         "linkedin": ''
@@ -130,14 +130,14 @@ const TeamMembers = [
     // Technical Team
     {
         "name": 'Aman Singh Bhogal',
-        "image": '/images/Team/Aman Singh Bhogal.jpg',
+        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/Team/Aman%20Singh%20Bhogal.jpg',
         "role": 'Technical Lead',
         "insta": 'https://www.instagram.com/asb_0002/',
         "linkedin": 'https://www.linkedin.com/in/aman-singh-bhogal-002914195/'
     },
     {
         "name": 'Aditya Ravi',
-        "image": '/images/Team/Aditya Ravi.jpg',
+        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/Team/Aditya%20Ravi.jpg',
         "role": '',
         "insta": 'https://www.instagram.com/adman1912/',
         "linkedin": 'https://www.linkedin.com/in/adman1917/'
@@ -201,7 +201,7 @@ const TeamMembers = [
     },
     {
         "name": 'Saniddhya Dubey',
-        "image": '/images/Team/Saniddhya Dubey.jpg',
+        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/Team/Saniddhya%20Dubey.jpg',
         "role": '',
         "insta": 'https://www.instagram.com/10_saniddhya/',
         "linkedin": 'https://www.linkedin.com/in/saniddhya-dubey-69a9a520b/'

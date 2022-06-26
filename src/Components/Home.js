@@ -5,10 +5,11 @@ import About from './About';
 function Home() {
     return (
         <div>
-            {/* Home Page */}
+        {/* <Content> */}
+        {/* Home Page */}
         <Container id='home'>
             <HomeLeft>
-                <img src='/images/HomePageLogo.jpg' alt='Oh! Image Not found.'/>
+                <img src='/images/HomePageLogo.jpg' alt='404! Element Not found.'/>
                 <h3>Welcome to Google DSC at MPSTME, Shirpur</h3>
                 <h3>Happy developing!</h3>
             </HomeLeft>
@@ -19,15 +20,24 @@ function Home() {
 
         {/* About Page */}
         <About />
+
+        {/* </Content> */}
         </div>
     )
 }
 
 export default Home;
 
+// const Content = styled.div`
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     align-items: center;
+// `;
+
 const Container = styled.div`
-    height: 80vh;
     display: flex;
+    flex-wrap: wrap;
     padding: 40px;
     justify-content: center;
     align-items: center;    

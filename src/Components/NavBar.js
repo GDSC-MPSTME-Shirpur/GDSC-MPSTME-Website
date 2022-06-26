@@ -9,33 +9,29 @@ function NavBar() {
         <Container>
             <Link to='/'>
                 <Logo>
-                    <a>
-                        <img src="./images/profile_img.png" alt="Oh!" />
-                    </a>
-                    <a>
+                    <img src="./images/profile_img.png" alt="Oh!" />
                     <LogoText>
                         <Heading>Google Developers Student Club</Heading>
                         <CollegeName>MPSTME, Shirpur</CollegeName>
                     </LogoText>
-                    </a>
                 </Logo>
             </Link>
             <Links>
                 <PcLinks>
                 <Link to="/">
-                    <li><a>Home</a></li>
+                    <li>Home</li>
                 </Link>
                 <Link to="/team">
-                    <li><a>Team</a></li>
+                    <li>Team</li>
                 </Link>
                 <Link to='/technologies'>
-                    <li><a>technologies</a></li>
+                    <li>Technologies</li>
                 </Link>
                 <Link to="/events">
-                    <li><a>Events</a></li>
+                    <li>Events</li>
                 </Link>
                 <Link to="/contact">
-                    <li><a>Contact</a></li>
+                    <li>Contact</li>
                 </Link>
                 </PcLinks>
                 <Menu>
@@ -50,20 +46,30 @@ function NavBar() {
                         SetNavOpen(false)
                     }/>
                 </CloseWrapper>
-                <Link to="/">
-                    <li><a>Home</a></li>
+                <Link to="/" onClick = {() => 
+                        SetNavOpen(false)
+                    }>
+                    <li>Home</li>
                 </Link>
-                <Link to="/team">
-                    <li><a>Team</a></li>
+                <Link to="/team" onClick = {() => 
+                        SetNavOpen(false)
+                    }>
+                    <li>Team</li>
                 </Link>
-                <Link to='/technologies'>
-                    <li><a>technologies</a></li>
+                <Link to='/technologies' onClick = {() => 
+                        SetNavOpen(false)
+                    }>
+                    <li>technologies</li>
                 </Link>
-                <Link to="/events">
-                    <li><a>Events</a></li>
+                <Link to="/events" onClick = {() => 
+                        SetNavOpen(false)
+                    }>
+                    <li>Events</li>
                 </Link>
-                <Link to="/contact">
-                    <li><a>Contact</a></li>
+                <Link to="/contact" onClick = {() => 
+                        SetNavOpen(false)
+                    }>
+                    <li>Contact</li>
                 </Link>
             </MobileNav>
         </Container>
@@ -80,7 +86,7 @@ const Container = styled.div`
     justify-content: space-between;
     top: 0;
     position: sticky;
-    height: 60px;
+    height: 70px;
     align-items: center;
     padding: 0px 30px;
     background-color: white;
@@ -102,16 +108,16 @@ const LogoText = styled(Logo)`
 `;
 const Heading = styled.div`
     font-size: 18px;
-    @media (max-width: 756px)
+    @media (max-width: 824px)
     {
-        font-size: 0.7em;
+        font-size: 14px;
     }
 `;
 const CollegeName = styled.div`
     font-size: 14px;
-    @media (max-width: 756px)
+    @media (max-width: 824px)
     {
-        font-size: 0.6em;
+        font-size: 12px;
     }
 `;
 const Links =styled.div`
@@ -122,11 +128,9 @@ const Links =styled.div`
     li{
         padding: 0px 10px;
         font-weight: 600;
-        a{
-            color: #5f6368;
-        }
+        color: #5f6368;
     }
-    li a:hover{
+    li:hover{
         color: red;
     }
 `;
@@ -134,13 +138,13 @@ const PcLinks = styled(Links)`
     li{
         cursor: pointer;
     }
-    @media (max-width: 756px)
+    @media (max-width: 824px)
     {
         display: none;
     }
 `;
 const Menu = styled.div`
-    @media (min-width: 756px)
+    @media (min-width: 824px)
     {
         display: none;
     }
@@ -164,12 +168,10 @@ const MobileNav = styled.div`
     li{
         padding: 15px 0px;
         border-bottom: 1px solid rgba(0,0,0,0.2);
-        a{
-            font-weight: 600;
-            color: #5f6368;
-        }
+        font-weight: 600;
+        color: #5f6368;
     }
-    @media (min-width: 756px)
+    @media (min-width: 824px)
     {
         display: none;
     }

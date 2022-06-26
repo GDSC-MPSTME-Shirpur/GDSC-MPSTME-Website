@@ -23,7 +23,7 @@ function About() {
                </ButtonTab>
             </Body>
          <Picture>
-               <img src='/images/about1.gif' alt='image not found' />
+               <img src='/images/about1.gif' alt='404, Object not found' />
          </Picture>
       </Container>
    )
@@ -37,7 +37,7 @@ const Container = styled.div`
    align-items: center;
    height: 100vh;
    padding: 0px 40px;
-   @media (max-width: 756px)
+   @media (max-width: 993px)
     {
          flex-direction: column;
          height: fit-content;
@@ -64,7 +64,7 @@ const Body = styled.div`
    p{
       padding: 20px;
    }
-   @media (max-width: 756px)
+   @media (max-width: 824px)
     {
          margin: 0;
          width: 100%;
@@ -77,7 +77,7 @@ const Body = styled.div`
 const Part = styled.div`
    margin-top: 5px;
    margin-left: 25px;
-   @media (max-width: 756px)
+   @media (max-width: 824px)
     {
          margin: 10px;
     }
@@ -92,7 +92,7 @@ const Picture = styled.div`
         width: 450px;
         fit-content: contain;
     }
-    @media (max-width: 756px)
+    @media (max-width: 824px)
     {
         img{
             width: 250px;
