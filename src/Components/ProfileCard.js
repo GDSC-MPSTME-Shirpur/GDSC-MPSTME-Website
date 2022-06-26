@@ -73,28 +73,32 @@ const Image = styled.div`
     }
 `;
 const SocialAccounts = styled.div`
-    display: flex;
-    justify-content: center;
-    a{
-        cursor: pointer;
-        padding: 3px 5px;
-        margin: 3px;
-        border-radius: 3px;
-        font-size: 1.3em;
-    }
-    a:hover{
-        font-size: 1.5em;
-    }
-    #insta-a{
-        border: 1px solid rgb(230, 99, 121);
-    }
-    #linkedin-a{
-        border: 1px solid darkblue;
-    }
-    #insta{
-        color: rgb(230, 99, 121);
-    }
-    #linkedin{
-        color: darkblue;
-    }
+  display: flex;
+  justify-content: center;
+  a {
+    cursor: pointer;
+    padding: 3px 5px;
+    margin: 3px;
+    border-radius: 3px;
+    font-size: 1.3em;
+  }
+  a:hover {
+    transform: scale(1.2, 1.2);
+    padding-right: 7px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #insta-a {
+    border: 1px solid rgb(230, 99, 121);
+  }
+  #linkedin-a {
+    border: 1px solid darkblue;
+  }
+  #insta {
+    color: rgb(230, 99, 121);
+  }
+  #linkedin {
+    color: darkblue;
+  }
 `;
