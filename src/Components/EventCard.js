@@ -17,6 +17,7 @@ function EventCard({event})
                     event.Date
                     &&
                     <>
+                    { event.location && <p><strong>Location:</strong> {event.location}</p>}
                     <p><strong>Date:</strong> {event.Date}</p>
                     <p><strong>Time:</strong> {event.Time}</p>
                     </>

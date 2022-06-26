@@ -8,7 +8,7 @@ import Iframe from 'react-iframe';
 const header = [
     {
         "name": "#30DaysOfCloud Leader-Board",
-        "description": "Checkout our Leader Board for 30 Days of Goolge Cloud.",
+        "description": "Checkout our Leader Board for 30 Days of Google Cloud.",
         "img": '/images/Events/GCC30.jpg',
         "Date": "",
         "Time": "",
