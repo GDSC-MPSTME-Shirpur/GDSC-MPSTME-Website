@@ -1,5 +1,32 @@
 const EventsDetail = [
     {
+        "name": "The Community Sync",
+        "description": "Only 60 seats so register as soon as possible. Engaging Games and activities with community members. Google Solution Challenge. Win exciting goodies from Google DSC! Join us in the Event to know more.",
+        "img": '/images/Events/2022SolutionChallenge.png',
+        "Date": "12th March, 2022",
+        "Time": "4:00 pm",
+        "SiteName": 'Know More',
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-mukesh-patel-school-of-technology-management-and-engineering-shirpur-presents-the-community-sync/",
+        "bkgclr": '',
+        "isLeft": '',
+        "bufferBtnName": '',
+        "bufferBtnLink" : '',
+        "location": 'Seminar Hall, C - Wing 2nd Floor - MPSTME Shirpur Shirpur, 425405'
+    },
+    {
+        "name": "Introduction to Python Programming",
+        "description": "Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. This versatility, along with its beginner-friendliness, has made it one of the most-used programming languages today. Join us in the Event to know more.",
+        "img": '/images/Events/PythonWorkshop.png',
+        "Date": "6th February, 2022",
+        "Time": "11:00 am",
+        "SiteName": 'Know More',
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-mukesh-patel-school-of-technology-management-and-engineering-shirpur-presents-introduction-to-python-programming/",
+        "bkgclr": 'white',
+        "isLeft": 'true',
+        "bufferBtnName": '',
+        "bufferBtnLink" : ''
+    },
+    {
         "name": "Android Study Jam: Introduction",
         "description": "Android has dominated the global market share of smartphone operating systems for several years. Android application development is a recognized industry occupation as a full-time career option. Join us in the Event to know more.",
         "img": '/images/Events/AJSIntro.jpeg',
