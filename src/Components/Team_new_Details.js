@@ -4,7 +4,7 @@ const NewTeamMembers = [
         "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/Team/Aman%20Singh%20Bhogal.jpg',
         "role": 'GDSC Lead',
         "insta": '',
-        "linkedin": 'https://www.linkedin.com/in/shambhavigupta2411/'
+        "linkedin": 'https://www.linkedin.com/in/aman-singh-bhogal-002914195/'
     },
     {
         "name": '',
