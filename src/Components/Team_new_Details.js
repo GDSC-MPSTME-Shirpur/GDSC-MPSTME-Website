@@ -1,7 +1,7 @@
-const TeamMembers = [
+const NewTeamMembers = [
     {
-        "name": "Shambhavi Gupta",
-        "image": '/images/Team/Shambhavi Gupta.jpg',
+        "name": 'Aman Singh Bhogal',
+        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/Team/Aman%20Singh%20Bhogal.jpg',
         "role": 'GDSC Lead',
         "insta": '',
         "linkedin": 'https://www.linkedin.com/in/shambhavigupta2411/'
@@ -258,4 +258,4 @@ const TeamMembers = [
     }
 ];
 
-export default TeamMembers;
+export default NewTeamMembers;

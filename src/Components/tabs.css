@@ -1,0 +1,72 @@
+.box {
+
+    width: 10 0px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid grey;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab {
+    background: #ccc;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+    border-top: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.active-tab {
+    border: none;
+    background: #fff;
+
+}
+
+.active-tab::after {
+    border-top: 2px solid blue;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: initial;
+    animation: new 0.5s;
+}
+
+@keyframes new {
+    from {
+        top: 50px;
+        left: 0;
+        right: 0;
+        background: grey;
+    }
+
+    to {
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+}
+
+.contents {
+    position: relative;
+}
+
+.content {
+    display: none;
+    position: relative;
+}
+
+.active-content {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}

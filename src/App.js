@@ -5,31 +5,32 @@ import Events from './Components/Events';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ContactUs from './Components/ContactUs';
 import Team from './Components/Team';
+import Team_new from './Components/Team_new';
 import Technologies from './Components/Technologies';
 import Footer from './Components/Footer';
-
+import Tabs from './Components/Tabs';
 function App() {
   return (
     <div className="App">
       <Router>
         {/* NavBar is good */}
-        <NavBar />  
+        <NavBar />
 
         <Switch>
           <Route exact path='/contact'>
-              <ContactUs />
+            <ContactUs />
           </Route>
           <Route exact path='/events'>
-              <Events />
+            <Events />
           </Route>
           <Route exact path='/team'>
-              <Team />
+            <Tabs />
           </Route>
           <Route exact path='/technologies'>
-              <Technologies />
+            <Technologies />
           </Route>
           <Route exact path='/'>
-              <Home />
+            <Home />
           </Route>
         </Switch>
 

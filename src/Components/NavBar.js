@@ -18,57 +18,57 @@ function NavBar() {
             </Link>
             <Links>
                 <PcLinks>
-                <Link to="/">
-                    <li>Home</li>
-                </Link>
-                <Link to="/team">
-                    <li>Team</li>
-                </Link>
-                <Link to='/technologies'>
-                    <li>Technologies</li>
-                </Link>
-                <Link to="/events">
-                    <li>Events</li>
-                </Link>
-                <Link to="/contact">
-                    <li>Contact</li>
-                </Link>
+                    <Link to="/">
+                        <li>Home</li>
+                    </Link>
+                    <Link to="/team">
+                        <li>Team</li>
+                    </Link>
+                    <Link to='/technologies'>
+                        <li>Technologies</li>
+                    </Link>
+                    <Link to="/events">
+                        <li>Events</li>
+                    </Link>
+                    <Link to="/contact">
+                        <li>Contact</li>
+                    </Link>
                 </PcLinks>
                 <Menu>
-                    <CustomMenu onClick = {() => 
+                    <CustomMenu onClick={() =>
                         SetNavOpen(true)
-                    }/>
+                    } />
                 </Menu>
             </Links>
-            <MobileNav show = { NavOpen }>
+            <MobileNav show={NavOpen}>
                 <CloseWrapper>
-                    <CustomClose onClick = {() => 
+                    <CustomClose onClick={() =>
                         SetNavOpen(false)
-                    }/>
+                    } />
                 </CloseWrapper>
-                <Link to="/" onClick = {() => 
-                        SetNavOpen(false)
-                    }>
+                <Link to="/" onClick={() =>
+                    SetNavOpen(false)
+                }>
                     <li>Home</li>
                 </Link>
-                <Link to="/team" onClick = {() => 
-                        SetNavOpen(false)
-                    }>
+                <Link to="/team" onClick={() =>
+                    SetNavOpen(false)
+                }>
                     <li>Team</li>
                 </Link>
-                <Link to='/technologies' onClick = {() => 
-                        SetNavOpen(false)
-                    }>
+                <Link to='/technologies' onClick={() =>
+                    SetNavOpen(false)
+                }>
                     <li>technologies</li>
                 </Link>
-                <Link to="/events" onClick = {() => 
-                        SetNavOpen(false)
-                    }>
+                <Link to="/events" onClick={() =>
+                    SetNavOpen(false)
+                }>
                     <li>Events</li>
                 </Link>
-                <Link to="/contact" onClick = {() => 
-                        SetNavOpen(false)
-                    }>
+                <Link to="/contact" onClick={() =>
+                    SetNavOpen(false)
+                }>
                     <li>Contact</li>
                 </Link>
             </MobileNav>
@@ -79,6 +79,7 @@ function NavBar() {
 export default NavBar;
 
 const Container = styled.div`
+    
     z-index: 1;
     color: #5f6368;
     display: flex;
@@ -120,19 +121,29 @@ const CollegeName = styled.div`
         font-size: 12px;
     }
 `;
-const Links =styled.div`
+const Links = styled.div`
     display: flex;
     align-items: center;
     text-transform: uppercase;
     list-style: none;
     li{
-        padding: 0px 10px;
+        padding: 0.5rem;
+        
         font-weight: 600;
         color: #5f6368;
+        
     }
-    li:hover{
-        color: red;
+    li:hover,
+    li:focus 
+    {
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        
+        transition: all 0.5s ease-in-out;
+        padding: 0.5rem;
+        background-color: #EAECEE;
+        color: Black;
     }
+    
 `;
 const PcLinks = styled(Links)`
     li{
@@ -164,7 +175,7 @@ const MobileNav = styled.div`
     background-color: white;
     padding: 20px;
     transition: transform 0.2s ease-in;
-    transform: ${props => props.show?'translateX(0)':'translateX(100%)'};
+    transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'};
     li{
         padding: 15px 0px;
         border-bottom: 1px solid rgba(0,0,0,0.2);
