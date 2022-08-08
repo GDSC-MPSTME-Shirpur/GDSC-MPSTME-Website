@@ -2,35 +2,54 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Team from './Team';
 import Team_new from './Team_new';
-import "./tabs.css";
 
 export default function Tabs() {
 
-    const [state, setState] = useState(1);
-    const action = (index) => {
-        setState(index)
-    }
-
+    const [state, setState] = useState(2022);
+    const year_2 = 2022;
+    const year_1 = 2021;
     return (
-        <div className='box'>
-            <div className='tabs'>
-                <div onClick={() => action(1)} className={`${state === 1 ? 'tab active-tab' : 'tab'}`}>
-                    2022
-                </div>
-                <div onClick={() => action(2)} className={`${state === 2 ? 'tab active-tab' : 'tab'}`}>
-                    2021
-                </div>
-            </div>
+        <Box>
+            <TwoTabs>
+                <Tab onClick={() => setState(2022)} state={state} year={year_2}>
+                    {year_2}
+                </Tab>
+                <Tab onClick={() => setState(2021)} state={state} year={year_1}>
+                    {year_1}
+                </Tab>
+            </TwoTabs>
 
             {/* contents */}
             <div className='contents'>
-                <div className={`${state === 1 ? "content active-content" : "content"}`}>
-                    <Team_new />
-                </div>
-                <div className={`${state === 2 ? "content active-content" : "content"}`}>
-                    <Team />
-                </div>
+                {state === 2022 ? <Team_new /> : <Team />}
             </div>
-        </div>
+        </Box >
     )
 };
+
+const Box = styled.div`
+    width: 10 0px;
+    margin: auto;
+    margin-top: 50px;
+`
+const TwoTabs = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`
+
+const Tab = styled.div`
+    padding: 10px;
+    text-align: center;
+    border-top: none;
+    line-height: 1em;
+    cursor: pointer;
+    position: relative;
+    width: 15%;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+    border-bottom: ${props => props.state === props.year ? `2px solid #4285F4` : `none`};
+    
+    width: ${props => props.state === props.year ? `15%` : `none`};
+`

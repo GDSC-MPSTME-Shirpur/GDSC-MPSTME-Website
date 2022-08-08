@@ -129,11 +129,11 @@ const NewTeamMembers = [
     },
     // Technical Team
     {
-        "name": 'Aman Singh Bhogal',
-        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/Team/Aman%20Singh%20Bhogal.jpg',
+        "name": 'Vasu Choudhary',
+        "image": '/images/Team/Vasu Choudhary.jpeg',
         "role": 'Technical Lead',
-        "insta": 'https://www.instagram.com/asb_0002/',
-        "linkedin": 'https://www.linkedin.com/in/aman-singh-bhogal-002914195/'
+        "insta": 'https://www.instagram.com/vasu0508/',
+        "linkedin": 'https://www.linkedin.com/in/vasu-choudhary-59a3b0176/'
     },
     {
         "name": 'Aditya Ravi',
@@ -143,11 +143,11 @@ const NewTeamMembers = [
         "linkedin": 'https://www.linkedin.com/in/adman1917/'
     },
     {
-        "name": 'Vasu Choudhary',
-        "image": '/images/Team/Vasu Choudhary.jpeg',
+        "name": '',
+        "image": '',
         "role": '',
-        "insta": 'https://www.instagram.com/vasu0508/',
-        "linkedin": 'https://www.linkedin.com/in/vasu-choudhary-59a3b0176/'
+        "insta": '',
+        "linkedin": ''
     },
     {
         "name": 'Yash Garg',
