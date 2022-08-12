@@ -4,8 +4,6 @@ import NavBar from './Components/NavBar';
 import Events from './Components/Events';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ContactUs from './Components/ContactUs';
-import Team from './Components/Team';
-import Team_new from './Components/Team_new';
 import Technologies from './Components/Technologies';
 import Footer from './Components/Footer';
 import Tabs from './Components/Tabs';
