@@ -4,11 +4,11 @@ import styled from 'styled-components';
 function About() {
    return (
       <Container id='about'>
-            <Body>
-               <Heading>
-                  <h4>About Google Developer Student Club</h4>
-               </Heading>
-               <p>Developer Student Clubs are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community. Opportunities DSCs provide students with :
+         <Body>
+            <Heading>
+               <h4>About Google Developer Student Club</h4>
+            </Heading>
+            <p>Developer Student Clubs are university based community groups for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community. Opportunities DSCs provide students with :
                <ul>
                   <Part>
                      <li>Gain relevant industry experience by solving problems for local organizations with technology based solutions.</li>
@@ -17,13 +17,13 @@ function About() {
                      <li>Getting inspiration to become world-class developers and changemakers.</li>
                   </Part>
                </ul>
-               </p>
-               <ButtonTab>
-                  <Button><a href='https://gdsc.community.dev/accounts/login/?next=/mukesh-patel-school-of-technology-management-and-engineering-shirpur/'>Join us</a></Button>
-               </ButtonTab>
-            </Body>
+            </p>
+            <ButtonTab>
+               <Button><a href='https://gdsc.community.dev/accounts/login/?next=/mukesh-patel-school-of-technology-management-and-engineering-shirpur/'>Join us</a></Button>
+            </ButtonTab>
+         </Body>
          <Picture>
-               <img src='/images/about1.gif' alt='404, Object not found' />
+            <img src='/images/about1.gif' alt='404, Object not found' />
          </Picture>
       </Container>
    )
@@ -104,8 +104,9 @@ const ButtonTab = styled.div`
     justify-content: center;
     align-items: center;
     Button:hover{
-      background-color: lightblue;
+      background-color: #58D68D;
       box-shadow: 0 3px 6px rgb(0 110 255 / 40%);
+      transition: all 0.4s ease-out ;
       a{
          color: black;
       }
