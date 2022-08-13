@@ -1,10 +1,10 @@
 const TeamMembers = [
     {
-        "name": 'Shambhavi Gupta', 
-        "image": '/images/Team/Shambhavi Gupta.jpg', 
-        "role": 'GDSC Lead', 
-        "insta": '', 
-        "linkedin": 'https://www.linkedin.com/in/shambhavigupta2411/' 
+        "name": "Shambhavi Gupta",
+        "image": '/images/Team/Shambhavi Gupta.jpg',
+        "role": 'GDSC Lead',
+        "insta": '',
+        "linkedin": 'https://www.linkedin.com/in/shambhavigupta2411/'
     },
     {
         "name": '',
@@ -51,9 +51,9 @@ const TeamMembers = [
     },
     {
         "name": 'Akshat Kotian',
-        "image": '/images/Team/Akshat Kotian.jpeg', 
-        "role": '', 
-        "insta": 'https://www.instagram.com/_akshatkotian04/', 
+        "image": '/images/Team/Akshat Kotian.jpeg',
+        "role": '',
+        "insta": 'https://www.instagram.com/_akshatkotian04/',
         "linkedin": 'https://www.linkedin.com/in/akshatkotian/'
     },
     {
