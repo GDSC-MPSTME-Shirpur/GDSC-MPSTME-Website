@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import Team from './Team';
-import Team_new from './Team_new';
+import Team from './2021_Team';
+import Team_new from './2022_Team';
 
 export default function Tabs() {
 
