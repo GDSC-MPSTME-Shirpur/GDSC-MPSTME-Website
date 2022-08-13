@@ -93,7 +93,7 @@ const NewTeamMembers = [
     },
     {
         "name": 'Jhanvi Bhalodia',
-        "image": '/images/New Team/default.jpg',
+        "image": '/images/New Team/Jhanvi Bhalodia .jpg',
         "role": '',
         "insta": '',
         "linkedin": 'https://www.linkedin.com/in/jhanvi-bhalodia-9b9841231'
@@ -115,10 +115,10 @@ const NewTeamMembers = [
     },
     {
         "name": 'Mithali Patil',
-        "image": '/images/New Team/default.jpg',
+        "image": '/images/New Team/Mithali Patil.png',
         "role": '',
-        "insta": '/',
-        "linkedin": '/'
+        "insta": 'https://www.instagram.com/mithalipatill/',
+        "linkedin": ''
     },
     {
         "name": '',
@@ -273,7 +273,7 @@ const NewTeamMembers = [
     },
     {
         "name": 'Tanish Singh Rajpal',
-        "image": '/images/New Team/default.jpg',
+        "image": '/images/New Team/Tanish Singh Rajpal.jpeg',
         "role": '',
         "insta": '/',
         "linkedin": '/'
@@ -359,28 +359,28 @@ const NewTeamMembers = [
     },
     {
         "name": 'Suhani Gupta',
-        "image": '/images/New Team/default.jpg',
+        "image": '/images/New Team/Suhani Gupta.jpg',
         "role": '',
         "insta": '/',
         "linkedin": 'https://www.linkedin.com/in/suhani-gupta-1b216522a'
     },    
     {
         "name": 'Manushri',
-        "image": '/images/New Team/default.jpg',
+        "image": '/images/New Team/Manushri.jpg',
         "role": '',
         "insta": 'https://instagram.com/_manushri_1277?igshid=YmMyMTA2M2Y=',
         "linkedin": ' https://www.linkedin.com/in/manushri-90535b231'
     },    
     {
         "name": 'Charyan',
-        "image": '/images/New Team/default.jpg',
+        "image": '/images/New Team/Charyan.jpg',
         "role": '',
         "insta": 'https://instagram.com/c.yan_sharma?igshid=YmMyMTA2M2Y=',
         "linkedin": 'https://www.linkedin.com/in/charyan-sharma-66646421a'
     },    
     {
         "name": 'Soniya Kamat',
-        "image": '/images/New Team/default.jpg',
+        "image": '/images/New Team/Soniya Kamat.webp',
         "role": '',
         "insta": '/',
         "linkedin": 'https://www.linkedin.com/in/soniya-kamat-417723242'
