@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ProfileCard from './ProfileCard';
 import TeamTitle from './TeamTitle';
-import NewTeamMembers from './Team_new_Details';
+import NewTeamMembers from './2022_Team_Details';
 
 const Departments = [
     'GDSC Lead',
