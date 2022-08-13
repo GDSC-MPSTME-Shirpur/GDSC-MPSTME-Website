@@ -41,6 +41,41 @@ const NewTeamMembers = [
         "insta": '',
         "linkedin": ''
     },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
     // Event Management Team.
     {
         "name": 'Samarth Varma',
@@ -84,6 +119,41 @@ const NewTeamMembers = [
         "role": '',
         "insta": '/',
         "linkedin": '/'
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
     },
 
     // Now Marketing Team
@@ -129,13 +199,41 @@ const NewTeamMembers = [
         "insta": '/',
         "linkedin": '/'
     },
-    // {
-    //     "name": 'Shubham Gandhi',
-    //     "image": '/images/New Team/Shubham Gandhi.jpg',
-    //     "role": '',
-    //     "insta": 'https://instagram.com/shubham.gandhii?igshid=YmMyMTA2M2Y=',
-    //     "linkedin": 'https://www.linkedin.com/in/shubham-gandhi-283582222'
-    // },
+    {
+        "name": 'Shubham Gandhi',
+        "image": '/images/New Team/Shubham Gandhi.jpg',
+        "role": '',
+        "insta": 'https://instagram.com/shubham.gandhii?igshid=YmMyMTA2M2Y=',
+        "linkedin": 'https://www.linkedin.com/in/shubham-gandhi-283582222'
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
 
     // Technical Team
     {
@@ -173,27 +271,27 @@ const NewTeamMembers = [
         "insta": '',
         "linkedin": 'https://www.linkedin.com/in/yash-sutaria-4389b71b6/'
     },
-    // {
-    //     "name": 'Tanish Singh Rajpal',
-    //     "image": '/images/New Team/default.jpg',
-    //     "role": '',
-    //     "insta": '/',
-    //     "linkedin": '/'
-    // },
-    // {
-    //     "name": 'Khushvardhan Bhardwaj',
-    //     "image": '/images/New Team/Khushvardhan Bhardwaj .jpg',
-    //     "role": '',
-    //     "insta": 'https://www.instagram.com/khushvardhanbhardwaj/',
-    //     "linkedin": 'https://www.linkedin.com/in/khushvardhan-bhardwaj-a399b1213/'
-    // },
-    // {
-    //     "name": 'Aman Singh Bharodiya',
-    //     "image": '/images/New Team/Aman_Singh_Bhadoriya.jpg',
-    //     "role": '',
-    //     "insta": '/',
-    //     "linkedin": 'https://www.linkedin.com/in/aman-singh-bhadoriya-6ab6841ba/'
-    // },
+    {
+        "name": 'Tanish Singh Rajpal',
+        "image": '/images/New Team/default.jpg',
+        "role": '',
+        "insta": '/',
+        "linkedin": '/'
+    },
+    {
+        "name": 'Khushvardhan Bhardwaj',
+        "image": '/images/New Team/Khushvardhan Bhardwaj .jpg',
+        "role": '',
+        "insta": 'https://www.instagram.com/khushvardhanbhardwaj/',
+        "linkedin": 'https://www.linkedin.com/in/khushvardhan-bhardwaj-a399b1213/'
+    },
+    {
+        "name": 'Aman Singh Bharodiya',
+        "image": '/images/New Team/Aman_Singh_Bhadoriya.jpg',
+        "role": '',
+        "insta": '/',
+        "linkedin": 'https://www.linkedin.com/in/aman-singh-bhadoriya-6ab6841ba/'
+    },
     {
         "name": 'Jayvardhan Bhardwaj',
         "image": '/images/New Team/Jayvardhan Bhardwaj .jpg',
@@ -201,13 +299,20 @@ const NewTeamMembers = [
         "insta": 'https://www.linkedin.com/in/jayvardhan-bhardwaj-485a5a1b2/',
         "linkedin": 'https://www.instagram.com/jayvardhanbhardwaj/'
     },
-    // {
-    //     "name": 'Amit Agarwal',
-    //     "image": '/images/New Team/Amit Agarwal.jpg',
-    //     "role": '',
-    //     "insta": '/',
-    //     "linkedin": '/'
-    // },
+    {
+        "name": 'Amit Agarwal',
+        "image": '/images/New Team/Amit Agarwal.jpg',
+        "role": '',
+        "insta": '/',
+        "linkedin": '/'
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
 
     // Creative Team
     {
@@ -252,31 +357,41 @@ const NewTeamMembers = [
         "insta": 'https://www.instagram.com/diya_gandhi16/?hl=en',
         "linkedin": 'https://www.linkedin.com/in/diya-gandhi-09100820b'
     },
-    // {
-    //     "name": 'Suhani Gupta',
-    //     "image": '/images/New Team/default.jpg',
-    //     "role": '',
-    //     "insta": '/',
-    //     "linkedin": 'https://www.linkedin.com/in/suhani-gupta-1b216522a'
-    // },    {
-    //     "name": 'Manushri',
-    //     "image": '/images/New Team/default.jpg',
-    //     "role": '',
-    //     "insta": 'https://instagram.com/_manushri_1277?igshid=YmMyMTA2M2Y=',
-    //     "linkedin": ' https://www.linkedin.com/in/manushri-90535b231'
-    // },    {
-    //     "name": 'Charyan',
-    //     "image": '/images/New Team/default.jpg',
-    //     "role": '',
-    //     "insta": 'https://instagram.com/c.yan_sharma?igshid=YmMyMTA2M2Y=',
-    //     "linkedin": 'https://www.linkedin.com/in/charyan-sharma-66646421a'
-    // },    {
-    //     "name": 'Soniya Kamat',
-    //     "image": '/images/New Team/default.jpg',
-    //     "role": '',
-    //     "insta": '/',
-    //     "linkedin": 'https://www.linkedin.com/in/soniya-kamat-417723242'
-    // },
+    {
+        "name": 'Suhani Gupta',
+        "image": '/images/New Team/default.jpg',
+        "role": '',
+        "insta": '/',
+        "linkedin": 'https://www.linkedin.com/in/suhani-gupta-1b216522a'
+    },    
+    {
+        "name": 'Manushri',
+        "image": '/images/New Team/default.jpg',
+        "role": '',
+        "insta": 'https://instagram.com/_manushri_1277?igshid=YmMyMTA2M2Y=',
+        "linkedin": ' https://www.linkedin.com/in/manushri-90535b231'
+    },    
+    {
+        "name": 'Charyan',
+        "image": '/images/New Team/default.jpg',
+        "role": '',
+        "insta": 'https://instagram.com/c.yan_sharma?igshid=YmMyMTA2M2Y=',
+        "linkedin": 'https://www.linkedin.com/in/charyan-sharma-66646421a'
+    },    
+    {
+        "name": 'Soniya Kamat',
+        "image": '/images/New Team/default.jpg',
+        "role": '',
+        "insta": '/',
+        "linkedin": 'https://www.linkedin.com/in/soniya-kamat-417723242'
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
 
     // Public Relation Team
     {
@@ -320,6 +435,41 @@ const NewTeamMembers = [
         "role": '',
         "insta": '/',
         "linkedin": '/'
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
+    },
+    {
+        "name": '',
+        "image": '',
+        "role": '',
+        "insta": '',
+        "linkedin": ''
     }
 ];
 
