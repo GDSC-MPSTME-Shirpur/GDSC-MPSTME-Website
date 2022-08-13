@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ProfileCard from './ProfileCard';
 import TeamTitle from './TeamTitle';
-import NewTeamMembers from './Team_new_Details';
+import NewTeamMembers from './2022_Team_Details';
 
 const Departments = [
     'GDSC Lead',
@@ -13,11 +13,14 @@ const Departments = [
     'Public Relations Team'
 ];
 
-let R1 = 0, R2 = 1, R3 = 4;
+let R1 = 0, R2 = 7,R3 = 4, R4 = 7, R5 = 10;
+
 function Increment_Row() {
-    R1 += 6;
-    R3 += 6;
-    R2 += 6;
+    R1 += 11;
+    R2 += 11;
+    R3 += 11;
+    R4 += 11;
+    R5 += 11;
 }
 
 function Row_1() {
@@ -28,6 +31,7 @@ function Row_1() {
                     index === R1
                     &&
                     <ProfileCard Person={Person} key={index} />
+                    
                 ))
             }
         </Row>
@@ -49,12 +53,45 @@ function Row_2() {
         </Row>
     )
 }
+
 function Row_3() {
     return (
         <Row>
             {
                 NewTeamMembers.map((Person, index) => (
-                    (index >= R3 && index <= (R3 + 1))
+                    (index >= R3 && index <= (R3 + 2))
+                    &&
+                    <>
+                        <ProfileCard Person={Person} key={index} />
+                    </>
+                ))
+            }
+        </Row>
+    )
+}
+
+function Row_4() {
+    return (
+        <Row>
+            {
+                NewTeamMembers.map((Person, index) => (
+                    (index >= R4 && index <= (R4 + 2))
+                    &&
+                    <>
+                        <ProfileCard Person={Person} key={index} />
+                    </>
+                ))
+            }
+        </Row>
+    )
+}
+
+function Row_5() {
+    return (
+        <Row>
+            {
+                NewTeamMembers.map((Person, index) => (
+                    (index > R5 && index <= (R5 + 1))
                     &&
                     <>
                         <ProfileCard Person={Person} key={index} />
@@ -69,6 +106,8 @@ function Team_new() {
     R1 = 0;
     R2 = 1;
     R3 = 4;
+    R4 = 7;
+    R5 = 9;
     return (
         <Container>
             {
@@ -85,6 +124,12 @@ function Team_new() {
                             }
                             {
                                 Row_3()
+                            }
+                            {
+                                Row_4()
+                            }
+                            {
+                                Row_5()
                             }
                         </TeamContainer>
                         {Increment_Row()}

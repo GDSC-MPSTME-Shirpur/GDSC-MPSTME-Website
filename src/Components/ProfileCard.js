@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-function ProfileCard({Person})
+function ProfileCard({Person,ind})
 {
     return(
         <div>
@@ -11,6 +11,7 @@ function ProfileCard({Person})
                 Person.name
                 &&
                 <Container>
+                    <p>{ind}</p>
                     <Image>
                         <img src={Person.image} alt={Person.name} />
                     </Image>
