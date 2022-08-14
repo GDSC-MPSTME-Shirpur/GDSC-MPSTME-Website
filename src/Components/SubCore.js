@@ -19,20 +19,20 @@ const SubCore = ({Team}) => {
 
     return (
         <SuCore>
-            <Members className='app__gallery-images_container' ref={scrollRef}>
+            <Members className='images_container' ref={scrollRef}>
                 { 
                     Team.map((Person, index) => (
                         index !== 0
                         &&
-                        <div className="app__gallery-images_card flex__center" >
+                        <div className="images_card" >
                             <ProfileCard Person = {Person} key = {index} />
                         </div>
                     ))
                 }
             </Members>
-            <div className="app__gallery-images_arrow">
-                <BsArrowLeftShort className='gallery__arrow-icon' onClick={() => scroll('left') } /> 
-                <BsArrowRightShort className='gallery__arrow-icon' onClick={() => scroll('right')} />
+            <div className="arrow">
+                <button><BsArrowLeftShort className='arrow-icon' onClick={() => scroll('left') } /></button> 
+                <button><BsArrowRightShort className='arrow-icon' onClick={() => scroll('right')} /></button>
             </div>
         </SuCore>
     )
@@ -48,10 +48,11 @@ const SuCore = styled.div`
     position: relative;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    .app__gallery-images_container::-webkit-scrollbar{
+    .images_container::-webkit-scrollbar{
         display: none;
     }
-    .app__gallery-images_arrow{
+
+    .arrow{
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -59,8 +60,12 @@ const SuCore = styled.div`
         padding: 0 1rem;
         position: absolute;
     }
+
+    button{
+        border:none;
+    }
     
-    .gallery__arrow-icon{
+    .arrow-icon{
         background-color: white;
         color: #5f6368;
         border: 1px solid lightgrey;
@@ -71,8 +76,8 @@ const SuCore = styled.div`
         border-radius: 5px;
     }
 
-    .gallery__arrow-icon:hover,
-    .gallery__arrow-icon:focus 
+    .arrow-icon:hover,
+    .arrow-icon:focus 
     {
         transition: all 0.2s ease-in-out;
         background-color: #EAECEE;
@@ -91,7 +96,7 @@ const Members = styled.div`
     scrollbar-width: none;
     margin: 0 2rem;
     
-    .app__gallery-images_card{
+    .images_card{
         display: flex;
         justify-content: center;
         align-items: center;

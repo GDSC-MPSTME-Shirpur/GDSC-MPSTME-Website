@@ -271,7 +271,7 @@ export const PR_Team = [
     {
         "name": 'Ishika Mahajan',
         "image": '/images/2022 Team/ishika.jpg',
-        "role": 'NMIMS MPSTME, Indore',
+        "role": '',
         "insta": '/',
         "linkedin": 'https://www.linkedin.com/in/ishika-mahajan-313072245'
     },
