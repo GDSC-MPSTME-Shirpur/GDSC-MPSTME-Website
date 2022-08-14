@@ -1,82 +1,15 @@
-const NewTeamMembers = [
+// Latest Update
+export const GDSC_Lead = [
     {
         "name": 'Aman Singh Bhogal',
         "image": '/images/2022 Team/aman.jpg',
         "role": 'GDSC Lead',
         "insta": 'https://www.instagram.com/asb_0002/?hl=en',
         "linkedin": 'https://www.linkedin.com/in/aman-singh-bhogal-002914195/'
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    // Event Management Team.
+    }
+];
+
+export const Event_Team = [
     {
         "name": 'Samarth Varma',
         "image": '/images/2022 Team/samarth.jpg',
@@ -119,44 +52,10 @@ const NewTeamMembers = [
         "role": '',
         "insta": 'https://www.instagram.com/mithalipatill/',
         "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
+    }
+];
 
-    // Now Marketing Team
+export const Marketing_Team =  [
     {
         "name": 'Jensy Aya',
         "image": '/images/2022 Team/jensy.jpg',
@@ -205,37 +104,10 @@ const NewTeamMembers = [
         "role": '',
         "insta": 'https://instagram.com/shubham.gandhii?igshid=YmMyMTA2M2Y=',
         "linkedin": 'https://www.linkedin.com/in/shubham-gandhi-283582222'
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
+    }
+];
 
-    // Technical Team
+export const Tech_Team = [
     {
         "name": 'Vasu Choudhary',
         "image": '/images/2022 Team/vasu.jpg',
@@ -305,16 +177,10 @@ const NewTeamMembers = [
         "role": '',
         "insta": '/',
         "linkedin": '/'
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
+    }
+];
 
-    // Creative Team
+export const Creative_Team = [
     {
         "name": 'Krishna Pande',
         "image": '/images/2022 Team/krishna.jpg',
@@ -384,16 +250,10 @@ const NewTeamMembers = [
         "role": '',
         "insta": '/',
         "linkedin": 'https://www.linkedin.com/in/soniya-kamat-417723242'
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
+    }
+];
 
-    // Public Relation Team
+export const PR_Team = [
     {
         "name": 'Shruti Rai',
         "image": '/images/2022 Team/Shruti_Rai.jpg',
@@ -411,7 +271,7 @@ const NewTeamMembers = [
     {
         "name": 'Ishika Mahajan',
         "image": '/images/2022 Team/ishika.jpg',
-        "role": 'NMIMS MPSTME, Indore',
+        "role": '',
         "insta": '/',
         "linkedin": 'https://www.linkedin.com/in/ishika-mahajan-313072245'
     },
@@ -435,42 +295,5 @@ const NewTeamMembers = [
         "role": '',
         "insta": '/',
         "linkedin": '/'
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
-    },
-    {
-        "name": '',
-        "image": '',
-        "role": '',
-        "insta": '',
-        "linkedin": ''
     }
 ];
-
-export default NewTeamMembers;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Team from './2021_Team';
-import Team_new from './2022_Team';
+import Team22 from './2022_Team';
 
 export default function Tabs() {
 
@@ -21,7 +21,9 @@ export default function Tabs() {
 
             {/* contents */}
             <div className='contents'>
-                {state === 2022 ? <Team_new /> : <Team />}
+                {
+                    (state === 2022 ? (<Team22 /> ):( <Team />))
+                }
             </div>
         </Box >
     )
