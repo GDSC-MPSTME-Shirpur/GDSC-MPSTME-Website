@@ -161,7 +161,7 @@ const NewTeamMembers = [
     },
     {
         "name": 'Kunal Patil',
-        "image": '/images/New Team/Kunal Patil.jpg',
+        "image": '/images/New Team/kunal-new2.jpg',
         "role": '',
         "insta": 'https://www.instagram.com/mr_kunal03_/?hl=en',
         "linkedin": 'https://www.linkedin.com/in/kunal-patil-4ba636218/'
