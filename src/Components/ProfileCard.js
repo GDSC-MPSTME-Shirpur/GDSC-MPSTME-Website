@@ -54,6 +54,7 @@ const Container = styled.div`
     border-radius: 5px;
     box-shadow: 0 0 12px 0 #9b9595;
     p{
+        text-align: center;
         font-size: 0.9em;
     }
     #p_name{

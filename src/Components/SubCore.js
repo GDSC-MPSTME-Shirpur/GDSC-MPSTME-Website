@@ -3,41 +3,48 @@ import styled from 'styled-components';
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 import ProfileCard from './ProfileCard';
 
-const SubCore = ({Team}) => {
+const SubCore = ({ Team }) => {
 
     const scrollRef = React.useRef(null)
 
     const scroll = (direction) => {
-      const { current } = scrollRef;
-      if( direction === 'left') {
-        current.scrollLeft -= 300;
-      }
-      else{
-        current.scrollLeft += 300;
-      }
+        const { current } = scrollRef;
+        if (direction === 'left') {
+            current.scrollLeft -= 300;
+            current.scrollBy({
+                left: -50,
+                behavior: 'smooth',
+            });
+        }
+        else {
+            current.scrollLeft += 300;
+            current.scrollBy({
+                left: 50,
+                behavior: 'smooth',
+            });
+        }
     }
 
     return (
         <SuCore>
             <Members className='images_container' ref={scrollRef}>
-                { 
+                {
                     Team.map((Person, index) => (
                         index !== 0
                         &&
                         <div className="images_card" >
-                            <ProfileCard Person = {Person} key = {index} />
+                            <ProfileCard Person={Person} key={index} />
                         </div>
                     ))
                 }
             </Members>
             <div className="arrow">
-                <button><BsArrowLeftShort className='arrow-icon' onClick={() => scroll('left') } /></button> 
+                <button><BsArrowLeftShort className='arrow-icon' onClick={() => scroll('left')} /></button>
                 <button><BsArrowRightShort className='arrow-icon' onClick={() => scroll('right')} /></button>
             </div>
         </SuCore>
     )
 }
-
 export default SubCore;
 
 const SuCore = styled.div`
@@ -59,6 +66,9 @@ const SuCore = styled.div`
         align-items: center;
         padding: 0 1rem;
         position: absolute;
+        @media (max-width: 500px){
+            display: none;
+        }
     }
 
     button{
