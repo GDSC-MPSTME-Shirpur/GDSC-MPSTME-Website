@@ -31,13 +31,7 @@ export const Event_Team = [
         "insta": '',
         "linkedin": 'https://www.linkedin.com/in/jhanvi-bhalodia-9b9841231'
     },
-    {
-        "name": 'Muskan Chopra',
-        "image": '/images/2022 Team/Muskan Chopra.jpg',
-        "role": '',
-        "insta": 'https://instagram.com/muskanchopraaa?igshid=YmMyMTA2M2Y=',
-        "linkedin": 'https://www.linkedin.com/in/muskan-chopra-787b29199'
-    },
+    
 
     {
         "name": 'Vaishnavi Choubey',
@@ -48,10 +42,17 @@ export const Event_Team = [
     },
     {
         "name": 'Mithali Patil',
-        "image": '/images/2022 Team/Mithali Patil.png',
+        "image": '/images/2022 Team/Mithali Patil.jpeg',
         "role": '',
         "insta": 'https://www.instagram.com/mithalipatill/',
         "linkedin": 'https://www.linkedin.com/in/mithali-patil-82475a1b3/'
+    },
+    {
+        "name": 'Muskan Chopra',
+        "image": '/images/2022 Team/Muskan Chopra.jpg',
+        "role": '',
+        "insta": 'https://instagram.com/muskanchopraaa?igshid=YmMyMTA2M2Y=',
+        "linkedin": 'https://www.linkedin.com/in/muskan-chopra-787b29199'
     }
 ];
 
@@ -72,7 +73,7 @@ export const Marketing_Team =  [
     },
     {
         "name": 'Krrish Juneja',
-        "image": '/images/2022 Team/Krrish Juneja .jpg',
+        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/2022%20Team/Krrish%20juneja%20.jpg',
         "role": '',
         "insta": 'https://www.instagram.com/junejakrrish/',
         "linkedin": 'https://www.linkedin.com/in/krrish-juneja-470b981a8/'
@@ -131,14 +132,14 @@ export const Tech_Team = [
     },
     {
         "name": 'Kunal Patil',
-        "image": '/images/2022 Team/Kunalp.jpg',
+        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/2022%20Team/kunalp.JPG',
         "role": '',
         "insta": 'https://www.instagram.com/mr_kunal03_/?hl=en',
         "linkedin": 'https://www.linkedin.com/in/kunal-patil-4ba636218/'
     },
     {
         "name": 'Yash Sutaria',
-        "image": '/images/2022 Team/Yash Sutaria.jpg',
+        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/2022%20Team/Yash%20Sutaria.JPG',
         "role": '',
         "insta": 'https://www.instagram.com/yash_sutaria/',
         "linkedin": 'https://www.linkedin.com/in/yash-sutaria-4389b71b6/'
