@@ -51,7 +51,7 @@ export const Event_Team = [
         "image": '/images/2022 Team/Mithali Patil.png',
         "role": '',
         "insta": 'https://www.instagram.com/mithalipatill/',
-        "linkedin": ''
+        "linkedin": 'https://www.linkedin.com/in/mithali-patil-82475a1b3/'
     }
 ];
 
@@ -95,8 +95,8 @@ export const Marketing_Team =  [
         "name": 'Gunamrutha Kode',
         "image": '/images/2022 Team/Gunamrutha Kode.jpg',
         "role": '',
-        "insta": '/',
-        "linkedin": '/'
+        "insta": 'https://www.instagram.com/gunamruthak/',
+        "linkedin": 'https://www.linkedin.com/in/gunamrutha-kode-84b1a9233'
     },
     {
         "name": 'Shubham Gandhi',
@@ -131,7 +131,7 @@ export const Tech_Team = [
     },
     {
         "name": 'Kunal Patil',
-        "image": '/images/2022 Team/Kunal Patil.jpg',
+        "image": '/images/2022 Team/Kunalp.jpg',
         "role": '',
         "insta": 'https://www.instagram.com/mr_kunal03_/?hl=en',
         "linkedin": 'https://www.linkedin.com/in/kunal-patil-4ba636218/'
@@ -140,15 +140,15 @@ export const Tech_Team = [
         "name": 'Yash Sutaria',
         "image": '/images/2022 Team/Yash Sutaria.jpg',
         "role": '',
-        "insta": '',
+        "insta": 'https://www.instagram.com/yash_sutaria/',
         "linkedin": 'https://www.linkedin.com/in/yash-sutaria-4389b71b6/'
     },
     {
         "name": 'Tanish Singh Rajpal',
         "image": '/images/2022 Team/Tanish Singh Rajpal.jpeg',
         "role": '',
-        "insta": '/',
-        "linkedin": '/'
+        "insta": '',
+        "linkedin": ''
     },
     {
         "name": 'Khushvardhan Bhardwaj',
@@ -161,22 +161,22 @@ export const Tech_Team = [
         "name": 'Aman Singh Bharodiya',
         "image": '/images/2022 Team/Aman_Singh_Bhadoriya.jpg',
         "role": '',
-        "insta": '/',
+        "insta": '',
         "linkedin": 'https://www.linkedin.com/in/aman-singh-bhadoriya-6ab6841ba/'
     },
     {
         "name": 'Jayvardhan Bhardwaj',
         "image": '/images/2022 Team/Jayvardhan Bhardwaj .jpg',
         "role": '',
-        "insta": 'https://www.linkedin.com/in/jayvardhan-bhardwaj-485a5a1b2/',
-        "linkedin": 'https://www.instagram.com/jayvardhanbhardwaj/'
+        "insta": 'https://www.instagram.com/jayvardhanbhardwaj/',
+        "linkedin": 'https://www.linkedin.com/in/jayvardhan-bhardwaj-485a5a1b2/'
     },
     {
         "name": 'Amit Agarwal',
         "image": '/images/2022 Team/Amit Agarwal.jpg',
         "role": '',
-        "insta": '/',
-        "linkedin": '/'
+        "insta": 'https://www.instagram.com/amitagarwal2312',
+        "linkedin": 'https://www.linkedin.com/in/amit-agarwal2267'
     }
 ];
 
@@ -185,8 +185,8 @@ export const Creative_Team = [
         "name": 'Krishna Pande',
         "image": '/images/2022 Team/krishna.jpg',
         "role": 'Creative Lead',
-        "insta": 'https://www.instagram.com/manantakkar18/',
-        "linkedin": '/'
+        "insta": 'https://www.instagram.com/_krishna_pande1904/',
+        "linkedin": 'https://www.linkedin.com/in/krishna-pande-a6a9b6211'
     },
     {
         "name": 'Keyush Shah',
@@ -210,6 +210,13 @@ export const Creative_Team = [
         "linkedin": 'https://www.linkedin.com/in/jontybhalodiya/'
     },
     {
+        "name": 'Charyan Sharma',
+        "image": '/images/2022 Team/Charyan.jpg',
+        "role": '',
+        "insta": 'https://instagram.com/c.yan_sharma?igshid=YmMyMTA2M2Y=',
+        "linkedin": 'https://www.linkedin.com/in/charyan-sharma-66646421a'
+    },  
+    {
         "name": 'Varsha Poswalia',
         "image": '/images/2022 Team/Varsha Poswalia.jpg',
         "role": '',
@@ -227,7 +234,7 @@ export const Creative_Team = [
         "name": 'Suhani Gupta',
         "image": '/images/2022 Team/Suhani Gupta.jpg',
         "role": '',
-        "insta": '/',
+        "insta": 'https://www.instagram.com/suhani_agrawal001/?igshid=YmMyMTA2M2Y%3D',
         "linkedin": 'https://www.linkedin.com/in/suhani-gupta-1b216522a'
     },    
     {
@@ -237,18 +244,12 @@ export const Creative_Team = [
         "insta": 'https://instagram.com/_manushri_1277?igshid=YmMyMTA2M2Y=',
         "linkedin": ' https://www.linkedin.com/in/manushri-90535b231'
     },    
-    {
-        "name": 'Charyan',
-        "image": '/images/2022 Team/Charyan.jpg',
-        "role": '',
-        "insta": 'https://instagram.com/c.yan_sharma?igshid=YmMyMTA2M2Y=',
-        "linkedin": 'https://www.linkedin.com/in/charyan-sharma-66646421a'
-    },    
+     
     {
         "name": 'Soniya Kamat',
         "image": '/images/2022 Team/Soniya Kamat.webp',
         "role": '',
-        "insta": '/',
+        "insta": 'https://www.instagram.com/p/Cb2LKpRgY21_tQX4oWZ9pjZeyZtkHVVQFAtReI0/?igshid=YmMyMTA2M2Y=',
         "linkedin": 'https://www.linkedin.com/in/soniya-kamat-417723242'
     }
 ];
@@ -258,7 +259,7 @@ export const PR_Team = [
         "name": 'Shruti Rai',
         "image": '/images/2022 Team/Shruti_Rai.jpg',
         "role": 'Public Relations Lead',
-        "insta": '/',
+        "insta": 'https://instagram.com/minshruti?igshid=YmMyMTA2M2Y=',
         "linkedin": 'https://www.linkedin.com/in/shruti-rai-624421306'
     },
     {
@@ -272,7 +273,7 @@ export const PR_Team = [
         "name": 'Ishika Mahajan',
         "image": '/images/2022 Team/ishika.jpg',
         "role": '',
-        "insta": '/',
+        // "insta": '/',
         "linkedin": 'https://www.linkedin.com/in/ishika-mahajan-313072245'
     },
     {
@@ -280,7 +281,7 @@ export const PR_Team = [
         "image": '/images/2022 Team/Charulata Chauhan .jpg',
         "role": '',
         "insta": 'https://www.instagram.com/_ccharu007/?hl=en',
-        "linkedin": '/'
+        "linkedin": 'https://www.linkedin.com/in/charulata-chauhan-54ba271b0'
     },
     {
         "name": 'Kaushal Kuwar',
