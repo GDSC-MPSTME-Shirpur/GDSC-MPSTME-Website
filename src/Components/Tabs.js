@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import Team from './Team';
-import Team_new from './Team_new';
+import Team from './2021_Team';
+import Team22 from './2022_Team';
 
 export default function Tabs() {
 
@@ -21,7 +21,9 @@ export default function Tabs() {
 
             {/* contents */}
             <div className='contents'>
-                {state === 2022 ? <Team_new /> : <Team />}
+                {
+                    (state === 2022 ? (<Team22 /> ):( <Team />))
+                }
             </div>
         </Box >
     )
@@ -36,6 +38,7 @@ const TwoTabs = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    
 `
 
 const Tab = styled.div`
@@ -48,8 +51,20 @@ const Tab = styled.div`
     width: 15%;
     font-size: 25px;
     margin-bottom: 20px;
-    
     border-bottom: ${props => props.state === props.year ? `2px solid #4285F4` : `none`};
-    
+    justify-content: center;
     width: ${props => props.state === props.year ? `15%` : `none`};
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+        padding-left: 7px;
+        padding-right: 7px;
+    text-align: center;
+
+    }
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        padding: 0.5rem;
+        background-color: #EAECEE;
+    }
 `
