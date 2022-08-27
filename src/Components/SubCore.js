@@ -10,14 +10,12 @@ const SubCore = ({ Team }) => {
     const scroll = (direction) => {
         const { current } = scrollRef;
         if (direction === 'left') {
-            current.scrollLeft -= 300;
             current.scrollBy({
                 left: -300,
                 behavior: 'smooth',
             });
         }
         else {
-            current.scrollLeft += 300;
             current.scrollBy({
                 left: 300,
                 behavior: 'smooth',
