@@ -1,6 +1,6 @@
 const EventsDetail = [
     {
-        "name": "Developer++ Volume1",
+        "name": "Developer++ Volume 1",
         "description": "Developer++ Vol1 is a C++ workshop organized to brush up the basic C++ and problem solving. This will be a multi-volume series for C++, which will cover all the basic concepts, Object Oriented Programming, Data Structures and Algorithms & many more.",
         "img": '/images/Events/Developer++.png',
         "Date": "28th August, 2022",
