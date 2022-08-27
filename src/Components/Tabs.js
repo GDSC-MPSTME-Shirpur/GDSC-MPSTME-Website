@@ -38,6 +38,7 @@ const TwoTabs = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    
 `
 
 const Tab = styled.div`
@@ -50,8 +51,20 @@ const Tab = styled.div`
     width: 15%;
     font-size: 25px;
     margin-bottom: 20px;
-    
     border-bottom: ${props => props.state === props.year ? `2px solid #4285F4` : `none`};
-    
+    justify-content: center;
     width: ${props => props.state === props.year ? `15%` : `none`};
+
+    @media (max-width: 500px) {
+        font-size: 20px;
+        padding-left: 7px;
+        padding-right: 7px;
+    text-align: center;
+
+    }
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        padding: 0.5rem;
+        background-color: #EAECEE;
+    }
 `
