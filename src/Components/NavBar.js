@@ -128,10 +128,8 @@ const Links = styled.div`
     list-style: none;
     li{
         padding: 0.5rem;
-        
         font-weight: 600;
         color: #5f6368;
-        
     }
     li:hover,
     li:focus 
