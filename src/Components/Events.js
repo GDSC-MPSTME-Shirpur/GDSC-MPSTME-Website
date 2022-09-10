@@ -42,18 +42,17 @@ function Events() {
         frameborder = "0"
         scrolling = "no" / >
         <
-        /Calendar>   <
-        /EventCalendar > {
-        EventsDetail.map((event, index) => ( <
-            EventCard event = { event }
-            key = { index }
-            />
-        ))
-    }
+        /Calendar>   </EventCalendar > {
+            EventsDetail.map((event, index) => ( <
+                EventCard event = { event }
+                key = { index }
+                />
+            ))
+        }
 
-    <
-    /Container>
-)
+        <
+        /Container>
+    )
 }
 
 export default Events;
