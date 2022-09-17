@@ -1,5 +1,18 @@
 const EventsDetail = [
     {
+        "name": "Compose Camp Volume 2",
+        "description": "Compose Camp are community-organised events focused around how to build Android apps using Jetpack Compose, where attendees get hands-on coding experience with Compose",
+        "img": '/images/Events/compose camp vol2.jpg',
+        "Date": "18th September, 2022",
+        "Time": "6:00 PM",
+        "SiteName": 'Know More',
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-mukesh-patel-school-of-technology-management-and-engineering-shirpur-presents-compose-camp-volume-2/",
+        "bkgclr": '',
+        "isLeft": 'true',
+        "bufferBtnName": '',
+        "bufferBtnLink": '',
+    },
+    {
         "name": "Compose Camp Volume 1",
         "description": "Compose Camp are community-organised events focused around how to build Android apps using Jetpack Compose, where attendees get hands-on coding experience with Compose",
         "img": '/images/Events/Compose Camp.png',
