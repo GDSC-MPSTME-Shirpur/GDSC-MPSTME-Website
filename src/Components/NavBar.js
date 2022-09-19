@@ -11,8 +11,8 @@ function NavBar() {
                 <Logo>
                     <img src="./images/profile_img.png" alt="Oh!" />
                     <LogoText>
-                        <Heading>Google Developers Student Club</Heading>
-                        <CollegeName>MPSTME, Shirpur</CollegeName>
+                        <Heading>Google Developer Student Clubs</Heading>
+                        <CollegeName>NMIMS MPSTME, Shirpur</CollegeName>
                     </LogoText>
                 </Logo>
             </Link>

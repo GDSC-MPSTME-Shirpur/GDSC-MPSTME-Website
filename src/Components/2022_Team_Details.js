@@ -149,7 +149,7 @@ export const Tech_Team = [
         "image": '/images/2022 Team/Tanish Singh Rajpal.jpeg',
         "role": '',
         "insta": '',
-        "linkedin": ''
+        "linkedin": 'https://www.linkedin.com/in/tanish-singh-rajpal-25967121a'
     },
     {
         "name": 'Khushvardhan Bhardwaj',
@@ -159,7 +159,7 @@ export const Tech_Team = [
         "linkedin": 'https://www.linkedin.com/in/khushvardhan-bhardwaj-a399b1213/'
     },
     {
-        "name": 'Aman Singh Bharodiya',
+        "name": 'Aman Singh Bhadoriya',
         "image": '/images/2022 Team/Aman_Singh_Bhadoriya.jpg',
         "role": '',
         "insta": '',

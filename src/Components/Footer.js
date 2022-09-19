@@ -40,6 +40,7 @@ function Footer()
 export default Footer;
 
 const Container = styled.div`
+    margin-top: 20px;
     display: flex;
     padding: 0 50px 10px 50px;
     justify-content: center;
