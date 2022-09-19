@@ -8,7 +8,7 @@ const technologies = [
         "link": "https://codelabs.developers.google.com/?cat=web",
         "SiteName": 'Codelabs',
         "bufferBtnName": '',
-        "bufferBtnLink" : ''
+        "bufferBtnLink": ''
     },
     {
         "name": "Flutter",
@@ -18,8 +18,8 @@ const technologies = [
         "isLeft": '',
         "SiteName": 'Codelabs',
         "link": "https://codelabs.developers.google.com/?cat=flutter#0",
-        "bufferBtnName" : '',
-        "bufferBtnLink" : ''
+        "bufferBtnName": '',
+        "bufferBtnLink": ''
     },
     {
         "name": "Android Development",
@@ -30,7 +30,7 @@ const technologies = [
         "link": "https://codelabs.developers.google.com/?cat=android",
         "SiteName": 'Codelabs',
         "bufferBtnName": '',
-        "bufferBtnLink" : ''
+        "bufferBtnLink": ''
     },
     {
         "name": "Google Cloud",
@@ -40,8 +40,8 @@ const technologies = [
         "isLeft": '',
         "SiteName": 'Codelabs',
         "link": "https://codelabs.developers.google.com/?cat=cloud",
-        "bufferBtnName" : '',
-        "bufferBtnLink" : ''
+        "bufferBtnName": '',
+        "bufferBtnLink": ''
     }
 ];
 

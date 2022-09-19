@@ -1,5 +1,33 @@
 const EventsDetail = [
     {
+        "name": "Compose Camp Volume 1",
+        "description": "Compose Camp are community-organised events focused around how to build Android apps using Jetpack Compose, where attendees get hands-on coding experience with Compose",
+        "img": '/images/Events/Compose Camp.png',
+        "Date": "8th September, 2022",
+        "Time": "9:00 AM",
+        "SiteName": 'Know More',
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-mukesh-patel-school-of-technology-management-and-engineering-shirpur-presents-compose-camp-volume-1/",
+        "bkgclr": '',
+        "isLeft": '',
+        "bufferBtnName": '',
+        "bufferBtnLink": '',
+        "location": 'Amrishbhai R Patel School - Karwand Naka, Shahada Rd, opp. H.P. Petrol Pump Shirpur, 425405'
+    },
+    {
+        "name": "Developer++ Volume 1",
+        "description": "Developer++ Vol1 is a C++ workshop organized to brush up the basic C++ and problem solving. This will be a multi-volume series for C++, which will cover all the basic concepts, Object Oriented Programming, Data Structures and Algorithms & many more.",
+        "img": '/images/Events/Developer++.png',
+        "Date": "28th August, 2022",
+        "Time": "2:30 PM",
+        "SiteName": 'Know More',
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-mukesh-patel-school-of-technology-management-and-engineering-shirpur-presents-developer-volume1/",
+        "bkgclr": '',
+        "isLeft": 'true',
+        "bufferBtnName": '',
+        "bufferBtnLink": '',
+        "location": 'Conference Hall, C - Wing 2nd Floor - MPSTME Shirpur Shirpur, 425405'
+    },
+    {
         "name": "The Community Sync",
         "description": "Only 60 seats so register as soon as possible. Engaging Games and activities with community members. Google Solution Challenge. Win exciting goodies from Google DSC! Join us in the Event to know more.",
         "img": '/images/Events/2022SolutionChallenge.png',
@@ -10,7 +38,7 @@ const EventsDetail = [
         "bkgclr": '',
         "isLeft": '',
         "bufferBtnName": '',
-        "bufferBtnLink" : '',
+        "bufferBtnLink": '',
         "location": 'Seminar Hall, C - Wing 2nd Floor - MPSTME Shirpur Shirpur, 425405'
     },
     {
@@ -24,7 +52,7 @@ const EventsDetail = [
         "bkgclr": 'white',
         "isLeft": 'true',
         "bufferBtnName": '',
-        "bufferBtnLink" : ''
+        "bufferBtnLink": ''
     },
     {
         "name": "Android Study Jam: Introduction",
@@ -37,7 +65,7 @@ const EventsDetail = [
         "bkgclr": '',
         "isLeft": '',
         "bufferBtnName": '',
-        "bufferBtnLink" : ''
+        "bufferBtnLink": ''
     },
     {
         "name": "Dive in DC at Five",
@@ -50,7 +78,7 @@ const EventsDetail = [
         "bkgclr": 'white',
         "isLeft": 'true',
         "bufferBtnName": '',
-        "bufferBtnLink" : ''
+        "bufferBtnLink": ''
     },
     {
         "name": "Info Session: An Evening on Cloud 9",
@@ -63,7 +91,7 @@ const EventsDetail = [
         "bkgclr": '',
         "isLeft": '',
         "bufferBtnName": '',
-        "bufferBtnLink" : ''
+        "bufferBtnLink": ''
     },
 ];
 

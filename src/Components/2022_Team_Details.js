@@ -31,7 +31,7 @@ export const Event_Team = [
         "insta": '',
         "linkedin": 'https://www.linkedin.com/in/jhanvi-bhalodia-9b9841231'
     },
-    
+
 
     {
         "name": 'Vaishnavi Choubey',
@@ -56,7 +56,7 @@ export const Event_Team = [
     }
 ];
 
-export const Marketing_Team =  [
+export const Marketing_Team = [
     {
         "name": 'Jensy Aya',
         "image": '/images/2022 Team/jensy.jpg',
@@ -184,7 +184,7 @@ export const Tech_Team = [
 export const Creative_Team = [
     {
         "name": 'Krishna Pande',
-        "image": '/images/2022 Team/krishna.jpg',
+        "image": '/images/2022 Team/krishna_pande.jpeg',
         "role": 'Creative Lead',
         "insta": 'https://www.instagram.com/_krishna_pande1904/',
         "linkedin": 'https://www.linkedin.com/in/krishna-pande-a6a9b6211'
@@ -216,7 +216,7 @@ export const Creative_Team = [
         "role": '',
         "insta": 'https://instagram.com/c.yan_sharma?igshid=YmMyMTA2M2Y=',
         "linkedin": 'https://www.linkedin.com/in/charyan-sharma-66646421a'
-    },  
+    },
     {
         "name": 'Varsha Poswalia',
         "image": '/images/2022 Team/Varsha Poswalia.jpg',
@@ -237,15 +237,15 @@ export const Creative_Team = [
         "role": '',
         "insta": 'https://www.instagram.com/suhani_agrawal001/?igshid=YmMyMTA2M2Y%3D',
         "linkedin": 'https://www.linkedin.com/in/suhani-gupta-1b216522a'
-    },    
+    },
     {
         "name": 'Manushri',
         "image": '/images/2022 Team/Manushri.jpg',
         "role": '',
         "insta": 'https://instagram.com/_manushri_1277?igshid=YmMyMTA2M2Y=',
         "linkedin": ' https://www.linkedin.com/in/manushri-90535b231'
-    },    
-     
+    },
+
     {
         "name": 'Soniya Kamat',
         "image": '/images/2022 Team/Soniya Kamat.webp',

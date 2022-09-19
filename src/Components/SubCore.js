@@ -43,6 +43,7 @@ const SubCore = ({ Team }) => {
         </SuCore>
     )
 }
+
 export default SubCore;
 
 const SuCore = styled.div`
@@ -64,9 +65,6 @@ const SuCore = styled.div`
         align-items: center;
         padding: 0 1rem;
         position: absolute;
-        @media (max-width: 500px){
-            display: none;
-        }
     }
 
     button{
