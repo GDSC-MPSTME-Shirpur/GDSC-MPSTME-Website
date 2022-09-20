@@ -339,6 +339,14 @@ export const Creative_Team = [
         "role": '',
         "insta": 'https://www.instagram.com/pranjalgalundia/',
         "linkedin": 'https://www.linkedin.com/in/pranjal-galundia-10195b24a'
+    },
+
+    {
+        "name": 'Yug Desai',
+        "image": '/images/2022 Team/Yug Desai.jpeg',
+        "role": '',
+        "insta": 'https://instagram.com/its_me_yug._?igshid=NmNmNjAwNzg=',
+        "linkedin": 'http://www.linkedin.com/in/yug-desai-2b5064251'
     }
 ];
 
