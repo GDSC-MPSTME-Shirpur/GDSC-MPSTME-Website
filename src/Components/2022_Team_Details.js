@@ -151,7 +151,7 @@ export const Marketing_Team = [
         "image": '/images/2022 Team/Owais Bubere.jpg',
         "role": '',
         "insta": 'https://www.instagram.com/imnotowais',
-        // "linkedin": '/'
+        "linkedin": 'https://www.linkedin.com/in/owais-bubere-b50950250'
     }
 ];
 
@@ -241,7 +241,7 @@ export const Tech_Team = [
         "insta": 'https://instagram.com/jiya.garg_?igshid=YmMyMTA2M2Y=',
         "linkedin": 'https://www.linkedin.com/in/jiya-garg-2ab348239'
     }
-    
+
 ];
 
 export const Creative_Team = [
