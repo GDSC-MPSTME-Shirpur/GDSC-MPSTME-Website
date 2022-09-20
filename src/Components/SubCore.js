@@ -65,6 +65,10 @@ const SuCore = styled.div`
         align-items: center;
         padding: 0 1rem;
         position: absolute;
+        @media (max-width: 756px)
+        {
+            display: none;
+        }
     }
 
     button{

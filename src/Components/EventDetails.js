@@ -51,7 +51,7 @@ const EventsDetail = [
         "bkgclr": '',
         "isLeft": '',
         "bufferBtnName": '',
-        "bufferBtnLink": '',
+        "bufferBtnLink" : '',
         "location": 'Seminar Hall, C - Wing 2nd Floor - MPSTME Shirpur Shirpur, 425405'
     },
     {
@@ -65,7 +65,7 @@ const EventsDetail = [
         "bkgclr": 'white',
         "isLeft": 'true',
         "bufferBtnName": '',
-        "bufferBtnLink": ''
+        "bufferBtnLink" : ''
     },
     {
         "name": "Android Study Jam: Introduction",
@@ -78,7 +78,7 @@ const EventsDetail = [
         "bkgclr": '',
         "isLeft": '',
         "bufferBtnName": '',
-        "bufferBtnLink": ''
+        "bufferBtnLink" : ''
     },
     {
         "name": "Dive in DC at Five",
@@ -91,7 +91,7 @@ const EventsDetail = [
         "bkgclr": 'white',
         "isLeft": 'true',
         "bufferBtnName": '',
-        "bufferBtnLink": ''
+        "bufferBtnLink" : ''
     },
     {
         "name": "Info Session: An Evening on Cloud 9",
@@ -104,7 +104,7 @@ const EventsDetail = [
         "bkgclr": '',
         "isLeft": '',
         "bufferBtnName": '',
-        "bufferBtnLink": ''
+        "bufferBtnLink" : ''
     },
 ];
 
