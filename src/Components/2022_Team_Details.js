@@ -204,7 +204,7 @@ export const Tech_Team = [
         "role": '',
         "insta": 'https://www.instagram.com/khushvardhanbhardwaj/',
         "linkedin": 'https://www.linkedin.com/in/khushvardhan-bhardwaj-a399b1213/'
-        
+
     },
     {
         "name": 'Aman Singh Bhadoriya',
@@ -241,6 +241,7 @@ export const Tech_Team = [
         "insta": 'https://instagram.com/jiya.garg_?igshid=YmMyMTA2M2Y=',
         "linkedin": 'https://www.linkedin.com/in/jiya-garg-2ab348239'
     }
+    
 ];
 
 export const Creative_Team = [
