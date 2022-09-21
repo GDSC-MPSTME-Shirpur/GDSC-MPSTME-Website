@@ -63,7 +63,7 @@ export const Event_Team = [
         "name": 'Prashansa Saxena',
         "image": '/images/2022 Team/Prashansa Saxena.jpg',
         "role": '',
-        "insta": 'http://instagram.com/_prashansaaaa',
+        "insta": 'http://instagram.com/_prashansaaaa_',
         "linkedin": 'https://www.linkedin.com/in/prashansa-saxena-1a4a94250'
     },
     {
@@ -144,7 +144,7 @@ export const Marketing_Team = [
         "image": '/images/2022 Team/VAIBHAV PATIL .PNG',
         "role": '',
         // "insta": '/',
-        "linkedin": '/'
+        "linkedin": 'https://www.linkedin.com/in/vaibhav-patil-b3016a249'
     },
     {
         "name": 'Owais Bubere',
@@ -181,7 +181,7 @@ export const Tech_Team = [
         "name": 'Kunal Patil',
         "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/2022%20Team/kunalp.JPG',
         "role": '',
-        "insta": 'https://www.instagram.com/mr_kunal03_/?hl=en',
+        "insta": 'https://www.instagram.com/kunal.patil.03/?igshid=YmMyMTA2M2Y%3D',
         "linkedin": 'https://www.linkedin.com/in/kunal-patil-4ba636218/'
     },
     {
@@ -390,8 +390,8 @@ export const PR_Team = [
         "name": 'Darshita Anyawada',
         "image": '/images/2022 Team/darshita.jpg',
         "role": '',
-        // "insta": '/',
-        "linkedin": '/'
+        "insta": 'https://instagram.com/_darshita_22?igshid=YmMyMTA2M2Y=',
+        "linkedin": 'https://www.linkedin.com/in/darshita-anyawada-95792a222'
     },
     {
         "name": 'Chirag Vijayvergiya',
@@ -418,7 +418,7 @@ export const PR_Team = [
         "name": 'Aarya Mehta',
         "image": '/images/2022 Team/Aarya Mehta.jpg',
         "role": '',
-        // "insta": '/',
-        "linkedin": '/'
+        "insta": 'https://instagram.com/_aaryamehta_?igshid=YmMyMTA2M2Y=',
+        "linkedin": 'https://www.linkedin.com/in/aarya-mehta-4247611b9'
     }
 ];
