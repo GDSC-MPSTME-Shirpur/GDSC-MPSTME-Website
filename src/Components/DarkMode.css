@@ -1,0 +1,24 @@
+.light-theme{
+    --nav-links: #5f6368; 
+    --bg: white;
+    --home-text: #7e7e7e;
+    --about-para: black;
+    --ftr-copy: #5f6368;
+    --tab-hover: black;
+    --tech-head: #1b2733;
+    --nav-shadow: #9b9595;
+    --nav-hover: #EAECEE;
+    --nav-uline: red;
+}
+.dark-theme{
+    --nav-links: white;
+    --bg: #181818;
+    --home-text: white;
+    --about-para: white;
+    --ftr-copy: #181818;
+    --tab-hover: #181818;
+    --tech-head: white;
+    --nav-shadow: none;
+    --nav-hover: #383838;
+    --nav-uline: white;
+}

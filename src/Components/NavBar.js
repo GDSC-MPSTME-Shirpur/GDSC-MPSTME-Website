@@ -1,9 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
+import "./DarkMode.css";
+
 function NavBar() {
+
+    const [theme, setTheme] = useState("light-theme");
+    const toggleTheme = () => {
+        if(theme === "dark-theme"){
+            setTheme("light-theme");
+        }
+        else{
+            setTheme("dark-theme");
+        }
+    }
+    useEffect(() => {
+        document.body.className = theme;
+    }, [theme]);
+
+
     const [NavOpen, SetNavOpen] = useState(false);
     return (
         <Container>
@@ -32,6 +49,11 @@ function NavBar() {
                     </Link>
                     <Link to="/contact">
                         <li>Contact</li>
+                    </Link>
+                    <Link onClick={() => toggleTheme()}>
+                        <li>
+                            <Moon>🌙</Moon>
+                        </li>
                     </Link>
                 </PcLinks>
                 <Menu>
@@ -71,6 +93,13 @@ function NavBar() {
                 }>
                     <li>Contact</li>
                 </Link>
+                <Link onClick={() =>
+                    toggleTheme()
+                }>
+                    <li>
+                        <Moon>🌙</Moon>
+                    </li>
+                </Link>
             </MobileNav>
         </Container>
     )
@@ -79,9 +108,8 @@ function NavBar() {
 export default NavBar;
 
 const Container = styled.div`
-    
     z-index: 1;
-    color: #5f6368;
+    color: var(--nav-links);
     display: flex;
     font-size: 15px;
     justify-content: space-between;
@@ -90,13 +118,13 @@ const Container = styled.div`
     height: 70px;
     align-items: center;
     padding: 0px 30px;
-    background-color: white;
-    box-shadow: 0 0 12px 0 #9b9595;
+    background-color: var(--bg);
+    box-shadow: 0 0 12px 0 var(--nav-shadow);
 `;
 const Logo = styled.div`
     display: flex;
     align-items: center;
-    color: #5f6368;
+    color: var(--nav-links);
     cursor: pointer;
     img{
         height: 60px;
@@ -129,16 +157,16 @@ const Links = styled.div`
     li{
         padding: 0.5rem;
         font-weight: 600;
-        color: #5f6368;
+        color: var(--nav-links);
     }
     li:hover,
     li:focus 
     {
-        border-bottom: 1px solid red;
+        border-bottom: 1px solid var(--nav-uline);
         transition: all 0.2s ease-in-out;
         padding: 0.5rem;
-        background-color: #EAECEE;
-        color: Black;
+        background-color: var(--nav-hover);
+        color: var(--about-para);
     }
     
 `;
@@ -149,6 +177,9 @@ const PcLinks = styled(Links)`
     @media (max-width: 824px)
     {
         display: none;
+    }
+    ion-icons{
+        color: blue;
     }
 `;
 const Menu = styled.div`
@@ -169,7 +200,7 @@ const MobileNav = styled.div`
     list-style: none;
     text-transform: uppercase;
     text-align: start;
-    background-color: white;
+    background-color: var(--bg);
     padding: 20px;
     transition: transform 0.2s ease-in;
     transform: ${props => props.show ? 'translateX(0)' : 'translateX(100%)'};
@@ -177,7 +208,7 @@ const MobileNav = styled.div`
         padding: 15px 0px;
         border-bottom: 1px solid rgba(0,0,0,0.2);
         font-weight: 600;
-        color: #5f6368;
+        color: var(--nav-links);
     }
     @media (min-width: 824px)
     {
@@ -194,3 +225,6 @@ const CloseWrapper = styled.div`
     display: flex;
     justify-content: flex-end;
 `;
+const Moon = styled.div`
+    font-size: 24px;
+`

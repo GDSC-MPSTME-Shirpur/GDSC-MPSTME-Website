@@ -8,6 +8,7 @@ function TechCard({Tech})
     return (
         <Container background={Tech.bkgclr} isLeft={Tech.isLeft} >
             <Image>
+                {console.log(Tech.img)}
                 <img src={Tech.img} alt={Tech.name}></img>
             </Image>
             <TechInfo>
@@ -29,7 +30,7 @@ function TechCard({Tech})
 export default TechCard;
 
 const Container = styled.div`
-    background-color: ${props => props.background? `white`:`#F8F9FA`};
+    background-color: ${props => props.background? `var(--bg)`:`var(--bg)`};
     height: 70vh;
     min-height: fit-content;
     display: flex;
@@ -78,6 +79,7 @@ const TechInfo = styled.div`
     h2
     {
         margin: 5px 0px;
+        color: var(--about-para);
     }
     p
     {

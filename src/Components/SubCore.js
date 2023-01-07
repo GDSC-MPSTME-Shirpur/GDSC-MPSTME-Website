@@ -73,11 +73,12 @@ const SuCore = styled.div`
 
     button{
         border:none;
+        background-color: var(--bg);
     }
     
     .arrow-icon{
-        background-color: white;
-        color: #5f6368;
+        background-color: var(--bg);
+        color: var(--nav-links);
         border: 1px solid lightgrey;
         border-radius: 5px;
         box-shadow: 0 0 12px 0 #9b9595;

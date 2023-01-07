@@ -26,6 +26,7 @@ export default Technologies;
 const Container = styled.div`
     display: flex;
     flex-direction: column;
+    background-color: var(--bg);
 `;
 
 const Title = styled.div`
@@ -38,7 +39,7 @@ const Title = styled.div`
         color: red;
     }
     h2{
-        color: #1b2733;
+        color: var(--tech-head);
         font-family: "Google Sans",sans-serif;
         text-align: center;
         font-weight: 700;

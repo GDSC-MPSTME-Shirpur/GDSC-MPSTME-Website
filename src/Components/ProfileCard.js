@@ -46,7 +46,8 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #5f6368;
+    color: var(--nav-links);
+    background-color: var(--bg);
     padding: 20px;
     width: 300px;
     border: 1px solid lightgrey;
