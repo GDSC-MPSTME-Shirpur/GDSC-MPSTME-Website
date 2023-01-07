@@ -114,7 +114,7 @@ export const Marketing_Team = [
     {
         "name": 'Anjali Sharma',
         "image": '/images/2022 Team/ANJALI SHARMA.jpg',
-        "role": '',
+        "role": 'SPTM Shirpur',
         "insta": 'https://instagram.com/ani_jsharma?igshid=YmMyMTA2M2Y=',
         "linkedin": 'https://www.linkedin.com/mwlite/in/anjali-sharma-55050b220'
     },
@@ -179,7 +179,7 @@ export const Tech_Team = [
     },
     {
         "name": 'Kunal Patil',
-        "image": 'https://raw.githubusercontent.com/GDSC-MPSTME-Shirpur/GDSC-MPSTME-Website/master/public/images/2022%20Team/kunalp.JPG',
+        "image": '/images/2022 Team/Kunal Patil.jpg',
         "role": '',
         "insta": 'https://www.instagram.com/kunal.patil.03/?igshid=YmMyMTA2M2Y%3D',
         "linkedin": 'https://www.linkedin.com/in/kunal-patil-4ba636218/'
@@ -312,7 +312,7 @@ export const Creative_Team = [
     {
         "name": 'Soniya Kamat',
         "image": '/images/2022 Team/Soniya Kamat.webp',
-        "role": '',
+        "role": 'SPTM Shirpur',
         "insta": 'https://www.instagram.com/p/Cb2LKpRgY21_tQX4oWZ9pjZeyZtkHVVQFAtReI0/?igshid=YmMyMTA2M2Y=',
         "linkedin": 'https://www.linkedin.com/in/soniya-kamat-417723242'
     },
@@ -371,13 +371,6 @@ export const PR_Team = [
         "role": '',
         // "insta": '/',
         "linkedin": 'https://www.linkedin.com/in/ishika-mahajan-313072245'
-    },
-    {
-        "name": 'Charulata Chauhan',
-        "image": '/images/2022 Team/Charulata Chauhan .jpg',
-        "role": '',
-        "insta": 'https://www.instagram.com/_ccharu007/?hl=en',
-        "linkedin": 'https://www.linkedin.com/in/charulata-chauhan-54ba271b0'
     },
     {
         "name": 'Kaushal Kuwar',

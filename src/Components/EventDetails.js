@@ -1,5 +1,18 @@
 const EventsDetail = [
     {
+        "name": "Cloud Campaign Study Jam",
+        "description": "Google Cloud Platform (GCP) is a suite of cloud computing services provided by Google. This study jam is going to be an open panel discussion for the Cloud campaign participant to ask their doubts and difficulties that they are facing in the campaign directly to the facilitator.",
+        "img": '/images/Events/Study Jam.jpeg',
+        "Date": "27th December, 2022",
+        "Time": "4:45 PM",
+        "SiteName": 'Know More',
+        "link": "https://gdsc.community.dev/events/details/developer-student-clubs-mukesh-patel-school-of-technology-management-and-engineering-shirpur-presents-cloud-campaign-study-jam-1/",
+        "bkgclr": '',
+        "isLeft": '',
+        "bufferBtnName": '',
+        "bufferBtnLink": '',
+    },
+    {
         "name": "Compose Camp Volume 2",
         "description": "Compose Camp are community-organised events focused around how to build Android apps using Jetpack Compose, where attendees get hands-on coding experience with Compose",
         "img": '/images/Events/compose camp vol2.jpg',

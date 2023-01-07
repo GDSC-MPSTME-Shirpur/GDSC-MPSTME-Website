@@ -12,7 +12,7 @@ const technologies = [
     },
     {
         "name": "Flutter",
-        "img": "/images/Flutter2.png",
+        "img": "/images/flutter.png",
         "content": "Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. Learn how to build a Flutter app that adapts to the platform that it is running on, be that Android, iOS, the web, Windows, macOS, or Linux.",
         "bkgclr": '',
         "isLeft": '',

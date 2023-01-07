@@ -97,18 +97,19 @@ const Title = styled.div`
     justify-content: center;
     align-items: center;
     color: #4285F4;
-    margin-top: 10px;
-    padding: 10px;
+    background-color: var(--bg);
+    padding: 20px;
+    padding-top: 10px;
     h1 {    
         width: 70%; 
         text-align: center; 
-        border-bottom: 2px solid #000; 
+        border-bottom: 2px solid #4285F4; 
         line-height: 0.1em;
         margin: 10px 0 20px; 
      } 
      h1 span { 
          font-weight: 600;
-         background:#fff; 
+         background: var(--bg); 
          padding:0 10px; 
      }
      @media (max-width: 756px)
@@ -124,6 +125,7 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     padding: 0 20px;
+    background-color: var(--bg);
     @media (max-width: 756px)
      {
         flex-direction: column;
@@ -157,6 +159,14 @@ const ContactForm = styled.div`
         width: 100%;
         padding-top: 10px;
     }
+    input, textarea{
+        background-color: var(--bg);
+        color: var(--about-para);
+        ::placeholder{
+            color: var(--nav-links);
+        }
+    }
+    
 `;
 
 const Map = styled.div`
@@ -174,6 +184,7 @@ const Details = styled.div`
     width: 100%;
     p{
         padding-left: 30px;
+        color: var(--about-para);
     }
     @media (max-width: 756px)
     {
@@ -216,7 +227,7 @@ const Row1 = styled.div`
         color: white;
         border-radius: 5px;
         font-size: 1em;
-        borer: 1px solid lightgrey;
+        border: 1px solid lightgrey;
     }
     @media (max-width: 756px)
     {

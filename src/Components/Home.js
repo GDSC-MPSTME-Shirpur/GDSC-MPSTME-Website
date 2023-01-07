@@ -1,6 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 import About from './About';
+import "./DarkMode.css";
 
 function Home() {
     return (
@@ -9,13 +9,14 @@ function Home() {
         {/* Home Page */}
         <Container id='home'>
             <HomeLeft>
-                <img src='/images/HomePageLogo.jpg' alt='404! Element Not found.'/>
+                <img src='/images/HomePageLogo.png' alt='404! Element Not found.'/>
                 <h3>Welcome to Google DSC at MPSTME, Shirpur</h3>
                 <h3>Happy developing!</h3>
             </HomeLeft>
             <HomeRight>
                 <img src='/images/HomePage.png' alt='Oh!' />
             </HomeRight>
+            
         </Container>
 
         {/* About Page */}
@@ -40,7 +41,8 @@ const Container = styled.div`
     flex-wrap: wrap;
     padding: 40px;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    background-color: var(--bg);
     @media (max-width: 756px)
     {
         flex-direction: column;
@@ -53,7 +55,7 @@ const HomeLeft = styled.div`
     align-items: center;
     margin: 10px;
     margin-right: 40px;
-    color: #7e7e7e;
+    color: var(--home-text);
     img{
         width: 500px;
         fit-content: contain;

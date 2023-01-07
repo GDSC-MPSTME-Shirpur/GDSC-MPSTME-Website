@@ -13,7 +13,7 @@ function TeamTitle({TeamName, color})
 }
 
 export default TeamTitle;
-const Container = styled.div`
+const Container = styled.div`       
 `;
 
 const Title = styled.div`
@@ -23,8 +23,10 @@ const Title = styled.div`
     width: 100%;
     // color: rgb(62, 238, 62);
     color: ${props => props.color? `${props.color}`:`blue`};
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding: 10px;
+    padding-top: 20px;
+    background-color: var(--bg);
     h1 {    
         width: 70%; 
         text-align: center; 
@@ -34,7 +36,7 @@ const Title = styled.div`
         margin: 10px 0 20px; 
      } 
      h1 span { 
-         background:#fff; 
+         background:var(--bg); 
         //  background: rgb(234, 237, 237); 
          padding:0 10px; 
      }

@@ -32,13 +32,16 @@ export default function Tabs() {
 const Box = styled.div`
     width: 10 0px;
     margin: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    background-color: var(--bg);
+
 `
 const TwoTabs = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    background-color: var(--bg);
 `
 
 const Tab = styled.div`
@@ -54,17 +57,20 @@ const Tab = styled.div`
     border-bottom: ${props => props.state === props.year ? `2px solid #4285F4` : `none`};
     justify-content: center;
     width: ${props => props.state === props.year ? `15%` : `none`};
+    color: var(--about-para);
+    background-color: var(--bg);
 
     @media (max-width: 500px) {
         font-size: 20px;
         padding-left: 7px;
         padding-right: 7px;
-    text-align: center;
+        text-align: center;
 
     }
     &:hover{
         transition: all 0.2s ease-in-out;
         padding: 0.5rem;
         background-color: #EAECEE;
+        color: var(--tab-hover);
     }
 `
