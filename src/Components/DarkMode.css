@@ -9,6 +9,7 @@
     --nav-shadow: #9b9595;
     --nav-hover: #EAECEE;
     --nav-uline: red;
+    background-color: var(--bg);
 }
 .dark-theme{
     --nav-links: white;
@@ -21,4 +22,5 @@
     --nav-shadow: none;
     --nav-hover: #383838;
     --nav-uline: white;
+    background-color: var(--bg);
 }

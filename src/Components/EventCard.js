@@ -92,7 +92,7 @@ const EventInfo = styled.div`
     }
     p
     {
-        color: #5f6368;
+        color: var(--about-para);
         font-weight: 500;
         margin-bottom: 5px;
     }

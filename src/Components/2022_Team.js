@@ -24,28 +24,20 @@ const Team22 = () => {
             <LeadContainer>
                 <ProfileCard Person = {GDSC_Lead[0]} />
             </LeadContainer>
-
-            {/* Event Team */}
-            <TeamTitle TeamName={Departments[1]} color="#4285F4" />  
-            <LeadContainer>
-                <ProfileCard Person = {Event_Team[0]} />
-            </LeadContainer>
-            <SubCore Team = {Event_Team} />
            
-
-            {/* Marketing Team */}
-            <TeamTitle TeamName={Departments[2]} color="#4285F4" />
-            <LeadContainer>
-                <ProfileCard Person = {Marketing_Team[0]} />
-            </LeadContainer>
-            <SubCore Team = {Marketing_Team} />
-
             {/* Technical Team */}
             <TeamTitle TeamName={Departments[3]} color="#4285F4" /> 
             <LeadContainer>
                 <ProfileCard Person = {Tech_Team[0]} />
             </LeadContainer>
             <SubCore Team = {Tech_Team} />
+            
+            {/* Marketing Team */}
+            <TeamTitle TeamName={Departments[2]} color="#4285F4" />
+            <LeadContainer>
+                <ProfileCard Person = {Marketing_Team[0]} />
+            </LeadContainer>
+            <SubCore Team = {Marketing_Team} />
 
             {/* Creative Team */}
             <TeamTitle TeamName={Departments[4]} color="#4285F4" />
@@ -60,6 +52,14 @@ const Team22 = () => {
                 <ProfileCard Person = {PR_Team[0]} />
             </LeadContainer>
             <SubCore Team = {PR_Team} />
+
+            {/* Event Team */}
+            <TeamTitle TeamName={Departments[1]} color="#4285F4" />  
+            <LeadContainer>
+                <ProfileCard Person = {Event_Team[0]} />
+            </LeadContainer>
+            <SubCore Team = {Event_Team} />
+
         </Container>
     );
 }
