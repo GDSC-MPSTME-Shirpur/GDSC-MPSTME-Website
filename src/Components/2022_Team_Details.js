@@ -39,13 +39,6 @@ export const Event_Team = [
         "linkedin": 'https://www.linkedin.com/in/vaishnavi-choubey-5142a9220'
     },
     {
-        "name": 'Mithali Patil',
-        "image": '/images/2022 Team/Mithali Patil.jpeg',
-        "role": '',
-        "insta": 'https://www.instagram.com/mithalipatill/',
-        "linkedin": 'https://www.linkedin.com/in/mithali-patil-82475a1b3/'
-    },
-    {
         "name": 'Muskan Chopra',
         "image": '/images/2022 Team/Muskan Chopra.jpg',
         "role": '',
