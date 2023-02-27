@@ -11,18 +11,11 @@ export const GDSC_Lead = [
 
 export const Event_Team = [
     {
-        "name": 'Samarth Varma',
-        "image": '/images/2022 Team/samarth.jpg',
-        "role": 'Event Management Lead',
-        "insta": 'https://www.instagram.com/samarth_varma/?hl=en',
-        "linkedin": 'https://www.linkedin.com/in/samarth-varma-946223144/'
-    },
-    {
-        "name": 'Manishka Pareta',
-        "image": '/images/2022 Team/MANISHKA PARETA.jpg',
+        "name": 'Shubham Gandhi',
+        "image": '/images/2022 Team/Shubham Gandhi.jpg',
         "role": '',
-        "insta": 'https://instagram.com/manishkapareta?igshid=YmMyMTA2M2Y=',
-        "linkedin": 'https://www.linkedin.com/in/manishka-pareta-4816121ba'
+        "insta": 'https://instagram.com/shubham.gandhii?igshid=YmMyMTA2M2Y=',
+        "linkedin": 'https://www.linkedin.com/in/shubham-gandhi-283582222'
     },
     {
         "name": 'Jhanvi Bhalodia',
@@ -39,11 +32,11 @@ export const Event_Team = [
         "linkedin": 'https://www.linkedin.com/in/vaishnavi-choubey-5142a9220'
     },
     {
-        "name": 'Muskan Chopra',
-        "image": '/images/2022 Team/Muskan Chopra.jpg',
+        "name": 'Manishka Pareta',
+        "image": '/images/2022 Team/MANISHKA PARETA.jpg',
         "role": '',
-        "insta": 'https://instagram.com/muskanchopraaa?igshid=YmMyMTA2M2Y=',
-        "linkedin": 'https://www.linkedin.com/in/muskan-chopra-787b29199'
+        "insta": 'https://instagram.com/manishkapareta?igshid=YmMyMTA2M2Y=',
+        "linkedin": 'https://www.linkedin.com/in/manishka-pareta-4816121ba'
     },
     {
         "name": 'Nishtha Desai',
@@ -118,13 +111,7 @@ export const Marketing_Team = [
         "insta": 'https://www.instagram.com/gunamruthak/',
         "linkedin": 'https://www.linkedin.com/in/gunamrutha-kode-84b1a9233'
     },
-    {
-        "name": 'Shubham Gandhi',
-        "image": '/images/2022 Team/Shubham Gandhi.jpg',
-        "role": '',
-        "insta": 'https://instagram.com/shubham.gandhii?igshid=YmMyMTA2M2Y=',
-        "linkedin": 'https://www.linkedin.com/in/shubham-gandhi-283582222'
-    },
+    
     {
         "name": 'Ayushi Verma',
         "image": '/images/2022 Team/Ayushi Verma.jpg',
@@ -133,7 +120,7 @@ export const Marketing_Team = [
         "linkedin": 'https://www.linkedin.com/in/ayushi-verma-95198724a'
     },
     {
-        "name": 'VAIBHAV PATIL',
+        "name": 'Vaibhav Patil',
         "image": '/images/2022 Team/VAIBHAV PATIL .PNG',
         "role": '',
         // "insta": '/',
@@ -345,11 +332,11 @@ export const Creative_Team = [
 
 export const PR_Team = [
     {
-        "name": 'Shruti Rai',
-        "image": '/images/2022 Team/Shruti_Rai.jpg',
-        "role": 'Public Relations Lead',
-        "insta": 'https://instagram.com/minshruti?igshid=YmMyMTA2M2Y=',
-        "linkedin": 'https://www.linkedin.com/in/shruti-rai-624421306'
+        "name": 'Aarya Mehta',
+        "image": '/images/2022 Team/Aarya Mehta.jpg',
+        "role": '',
+        "insta": 'https://instagram.com/_aaryamehta_?igshid=YmMyMTA2M2Y=',
+        "linkedin": 'https://www.linkedin.com/in/aarya-mehta-4247611b9'
     },
     {
         "name": 'Khushi Ajmera',
@@ -387,24 +374,11 @@ export const PR_Team = [
         "linkedin": 'https://www.linkedin.com/in/chirag-vijayvergiya-548635245'
     },
     {
-        "name": 'Vrudhi Varma',
-        "image": '/images/2022 Team/Vrudhi Varma.jpg',
-        "role": '',
-        "insta": 'http://instagram.com/vrudhivarma',
-        "linkedin": 'https://www.linkedin.com/in/vrudhi-varma-34264b216'
-    },
-    {
         "name": 'Devanshi Ramani',
         "image": '/images/2022 Team/Devanshi ramani.jpg',
         "role": '',
         "insta": 'http://instagram.com/devanshii_15',
         "linkedin": 'https://www.linkedin.com/in/devanshi-ramani-611192234'
-    },
-    {
-        "name": 'Aarya Mehta',
-        "image": '/images/2022 Team/Aarya Mehta.jpg',
-        "role": '',
-        "insta": 'https://instagram.com/_aaryamehta_?igshid=YmMyMTA2M2Y=',
-        "linkedin": 'https://www.linkedin.com/in/aarya-mehta-4247611b9'
     }
+    
 ];
